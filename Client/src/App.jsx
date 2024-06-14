@@ -1,13 +1,13 @@
-
-
 import './Sass/App.scss'
+
+import { MainPage } from './Pages/Page_MainPage/0.0-MainPage';
 
 function App() {
   
 
   return (
     <>
-     <h1> hello virgin app</h1>
+     <MainPage></MainPage>
     </>
   )
 }
