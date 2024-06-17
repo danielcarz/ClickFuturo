@@ -1,39 +1,40 @@
 //VARIABLES (it musb be in the first position)
-@use './Mixins/Variables.scss' as *;
+@use '../../../Mixins/Variables.scss' as * ;
 
 //MEDIA
-@import './Mixins/MediaQueries.scss';
+@import '../../../Mixins/MediaQueries.scss';
 
 //@import 'bootstrap/scss/bootstrap';
 
 
 
 @mixin styles_phone () {
-  
-    border: 1px solid purple;
+    
+   
   
 }
 
 @mixin styles_tablets () {
  
-    border: 1px solid purple;
+
 }
 
 @mixin styles_desktop () {
 
-  border:1px solid  purple
 
    
 }
 
 
 
-
+ 
 .layout{
 
         //CONFIGURATION BY DEFAULT
-        width: $width-Layout; //100%
+        width:  $width-Layout; //100%
         height: $height-Layout; //auto
+
+        border:1px solid  purple;
 
         
         padding: $padding-Layout;
