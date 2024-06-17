@@ -1,16 +1,20 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import './Sass/App.scss'
 
-//routes
-import { MainPage, BlogLibrary } from './Pages/index';
+//routes handler
+import { RoutesHandler} from './Routes/RoutesHandler';
 
 function App() {
   
 
   return (
-    <>
-     <MainPage></MainPage>
-     <BlogLibrary></BlogLibrary>
-    </>
+    <BrowserRouter>
+
+      <RoutesHandler></RoutesHandler>
+      
+    </BrowserRouter>
+    
   )
 }
 

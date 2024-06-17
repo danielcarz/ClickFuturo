@@ -1,4 +1,4 @@
 COMPONENTES
 
 LAYOUT:
-border: purple
+border: purple;
