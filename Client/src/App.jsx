@@ -1,6 +1,7 @@
 import './Sass/App.scss'
 
-import { MainPage } from './Pages/Page_MainPage/0.0-MainPage';
+//routes
+import { MainPage, BlogLibrary } from './Pages/index';
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
      <MainPage></MainPage>
+     <BlogLibrary></BlogLibrary>
     </>
   )
 }
