@@ -1,0 +1,4 @@
+COMPONENTES
+
+LAYOUT:
+border: purple

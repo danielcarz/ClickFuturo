@@ -10,18 +10,18 @@
 
 @mixin styles_phone () {
   
-    border: 1px solid black;
+    border: 1px solid purple;
   
 }
 
 @mixin styles_tablets () {
  
-    border: 1px solid black;
+    border: 1px solid purple;
 }
 
 @mixin styles_desktop () {
 
-  border:1px solid  black;
+  border:1px solid  purple
 
    
 }
@@ -31,13 +31,22 @@
 
 .layout{
 
-    
-        margin: 0;
-        padding: 0;
+        //CONFIGURATION BY DEFAULT
+        width: $width-Layout; //100%
+        height: $height-Layout; //auto
+
+        
+        padding: $padding-Layout;
+        margin: $margin-Layout;
+        
+        /* Others globals styles */
+        
+        display: flex;
+        flex-direction: column;
+
         font-family: 'Arial', sans-serif;
 
        
-        /* Others globals styles */
      
   
 
