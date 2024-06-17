@@ -7,7 +7,6 @@
 //@import 'bootstrap/scss/bootstrap';
 
 
-
 @mixin styles_phone () {
     
    
@@ -24,30 +23,25 @@
 
 @mixin styles_desktop () {
 
-
+    border: 1px solid green; 
    
 }
 
 
 
  
-.layout{
+.Container_Footer{
 
         //CONFIGURATION BY DEFAULT
-        width:  $width-Layout; //100%
-        height: $height-Layout; //auto
-
-        border:1px solid  purple;
+       
 
         
-        padding: $padding-Layout;
-        margin: $margin-Layout;
+
+        
         
         /* Others globals styles */
         
-        display: flex;
-        flex-direction: column;
-
+      
         font-family: 'Arial', sans-serif;
 
        

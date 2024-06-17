@@ -1,8 +1,13 @@
+//SASS
+import '../../../Sass/Pages/Components/Containers/4.0-SASS-Container_Blog.scss';
+
 export const Container_Blog = () => {
 
 
     return (
 
-        <h1> Container Blog </h1>
+        <div className = "container_blog" >
+            <h1>Container blog</h1>
+        </div>
     )
 }
