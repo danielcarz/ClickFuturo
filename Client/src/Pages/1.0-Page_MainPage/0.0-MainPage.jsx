@@ -8,7 +8,7 @@ import {
     Container_Footer } from './Containers/index'
 
 //import UI/UX containers
-import { Layout } from '../Components/Ui-Ux'
+import { Layout, Navbar } from '../Components/Ui-Ux'
 
 export const  MainPage = () => {
 
@@ -17,7 +17,8 @@ export const  MainPage = () => {
 
         <Layout>
 
-            <>
+            <>  
+                <Navbar> navbar Components </Navbar>
                 <Container_Presentation></Container_Presentation>
                 <Container_Menu></Container_Menu>
                 <Container_Blog></Container_Blog>

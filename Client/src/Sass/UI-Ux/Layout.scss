@@ -1,13 +1,13 @@
 //VARIABLES (it musb be in the first position)
-@use '../../../Mixins/Variables.scss' as * ;
+@use '../Mixins/Variables.scss' as * ;
 
 //MEDIA
-@import '../../../Mixins/MediaQueries.scss';
+@import '../Mixins/MediaQueries.scss';
 
 //@import 'bootstrap/scss/bootstrap';
 
 
-
+ 
 @mixin styles_phone () {
     
    
@@ -41,7 +41,7 @@
         border:1px solid  purple;
 
         
-        padding: $padding-Layout;
+        
         margin: $margin-Layout;
         
         /* Others globals styles */
