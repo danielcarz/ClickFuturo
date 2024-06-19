@@ -35,6 +35,7 @@
 
         //CONFIGURATION BY DEFAULT
         width:  $width-Layout; //100%
+        min-width: $min-width-Layout; //320 px
         height: $height-Layout; //auto
 
         border:1px solid  purple;

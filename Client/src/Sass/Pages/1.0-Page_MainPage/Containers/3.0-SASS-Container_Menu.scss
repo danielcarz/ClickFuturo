@@ -26,7 +26,7 @@
 @mixin styles_desktop () {
 
     border: 1px solid green;
-     
+
    
 }
 
@@ -36,9 +36,9 @@
 .container_menu{
 
         //CONFIGURATION BY DEFAULT
-       
-
         
+        max-width: $max-width-Container;
+        min-width: $min-width-Container; 
 
         
         
