@@ -27,6 +27,23 @@
 
 @mixin styles_desktop () {
 
+    height: $height-Container_Presentation;
+
+    
+
+    .wrapper_presentation{
+
+      width: 100%;
+
+      max-height:  $max-height-wrapper_presentation;
+      min-height: $min-height-wrapper_presentation;
+
+      justify-content: space-around;
+
+      text-align: center;
+
+    }
+
     border: 1px solid green; 
    
 }
@@ -38,8 +55,15 @@
 
         //CONFIGURATION BY DEFAULT
        
-        max-width: $max-width-Container;
-        min-width: $min-width-Container; 
+        max-width: $max-width-Container; //100%
+        min-width: $min-width-Container; //320px
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       
         
         .wrapper_presentation{
 
@@ -48,6 +72,10 @@
           justify-content: center;
           align-items: center;
 
+          margin: 0;
+          height: $max-height-wrapper_presentation; //100%
+         
+ 
           border: 1px solid black;
         }
      
