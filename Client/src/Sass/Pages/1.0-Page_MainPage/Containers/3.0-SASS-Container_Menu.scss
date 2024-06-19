@@ -9,7 +9,7 @@
 
 @mixin styles_phone () {
     
-   
+  border: 1px solid green; 
   
 }
 
@@ -19,11 +19,14 @@
   flex-direction: column;
   justify-content: center;
 
+  border: 1px solid green; 
+
 }
 
 @mixin styles_desktop () {
 
-    border: 1px solid green; 
+    border: 1px solid green;
+     
    
 }
 
