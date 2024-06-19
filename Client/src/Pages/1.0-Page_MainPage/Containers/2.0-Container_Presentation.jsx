@@ -12,8 +12,9 @@ export const Container_Presentation = () => {
 
         <div className = "container_presentation">
             
-            <figure>
-                <div>
+            <figure className = "wrapper_presentation">
+
+                <div className = "box-one_title">
                     
                     <h1>Titulo de main page</h1>
 
@@ -21,7 +22,7 @@ export const Container_Presentation = () => {
 
                 </div>
 
-                <div>
+                <div className = "box-two_button">
                     
                     <ButtonAccess> Clic to access </ButtonAccess>
 

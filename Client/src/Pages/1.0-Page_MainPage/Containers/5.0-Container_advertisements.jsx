@@ -8,7 +8,7 @@ export const Container_Adevertisements = () => {
 
 
         <div className= "container_advertisement" >
-            <h1> Container Container_Adevertisements </h1>
+            <h1> Container devertisements </h1>
 
         </div>
     )

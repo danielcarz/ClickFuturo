@@ -40,17 +40,16 @@
        
         max-width: $max-width-Container;
         min-width: $min-width-Container; 
+        
+        .wrapper_presentation{
 
-        
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
 
-        
-        
-        /* Others globals styles */
-        
-      
-        font-family: 'Arial', sans-serif;
-
-       
+          border: 1px solid black;
+        }
      
   
 

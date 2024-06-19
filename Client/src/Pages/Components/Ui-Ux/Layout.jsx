@@ -1,5 +1,5 @@
 //sass
-import '../../../Sass/Pages/Components/Ux-Ui/Layout.scss';
+import '../../../Sass/UI-Ux/Layout.scss';
 
 export const Layout = ( { children } ) => {
 
