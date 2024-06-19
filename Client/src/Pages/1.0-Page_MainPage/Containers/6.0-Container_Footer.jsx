@@ -1,5 +1,5 @@
 //SASS
-import '../../../Sass/Pages/Components/Containers/6.0-SASS-Container_Footer.scss';
+import '../../../Sass/Pages/1.0-Page_MainPage/Containers/6.0-SASS-Container_Footer.scss';
 
 export const Container_Footer = () => {
 

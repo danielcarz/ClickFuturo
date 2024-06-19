@@ -1,5 +1,5 @@
 //SASS
-import '../../../Sass/Pages/Components/Containers/4.0-SASS-Container_Blog.scss';
+import '../../../Sass/Pages/1.0-Page_MainPage/Containers/4.0-SASS-Container_Blog.scss';
 
 export const Container_Blog = () => {
 
