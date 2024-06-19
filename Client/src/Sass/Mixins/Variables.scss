@@ -13,11 +13,18 @@ $ancho-computadora: 1024px;
 //LAYOUT
     //WIDTH AND SIZES 
     $width-Layout: 100%;
+    $min-width-Layout: 320px; 
     $height-Layout: auto; 
 
     //margins and padding
     $padding-Layout: 10px; 
     $margin-Layout: 0;
+
+
+//CONTAINERS
+    //width and sizes
+    $max-width-Container: 100%;
+    $min-width-Container: 320px; 
 
 
 
