@@ -9,6 +9,20 @@
 
 @mixin styles_phone () {
 
+  height: $height-Container_Presentation;
+
+  .wrapper_presentation{
+
+    width: 100%;
+
+    max-height:  $max-height-wrapper_presentation;
+    min-height: $min-height-wrapper_presentation;
+
+    justify-content: space-around;
+
+    text-align: center;
+
+  }
   
     
   border: 1px solid green; 
@@ -17,11 +31,24 @@
 
 @mixin styles_tablets () {
   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    height: $height-Container_Presentation;
 
-  border: 1px solid green; 
+    
+
+    .wrapper_presentation{
+
+      width: 100%;
+
+      max-height:  $max-height-wrapper_presentation;
+      min-height: $min-height-wrapper_presentation;
+
+      justify-content: space-around;
+
+      text-align: center;
+
+    }
+
+    border: 1px solid green; 
 
 }
 
