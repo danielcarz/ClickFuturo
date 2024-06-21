@@ -8,22 +8,67 @@
 
 
 @mixin styles_phone () {
-    
-  border: 1px solid green; 
+  
+  
+
+  .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
+    display: flex;
+  }
+
+  .box{
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 15px; /* Espaciado de 5px entre los elementos */
+  }
+
+  border: 1px solid green;
+  
+  
+  
   
 }
 
 @mixin styles_tablets () {
   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
+    display: flex;
+  }
+
+  .box{
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 15px; /* Espaciado de 5px entre los elementos */
+  }
 
   border: 1px solid green; 
 
 }
 
 @mixin styles_desktop () {
+
+  padding: 50px;
+
+
+
+  .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
+    display: flex;
+  }
+
+  .box{
+   
+    margin: 10px auto;
+    max-width: 40%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 15px;
+
+    
+  }
 
     border: 1px solid green;
 
@@ -38,7 +83,17 @@
         //CONFIGURATION BY DEFAULT
         
         max-width: $max-width-Container;
-        min-width: $min-width-Container; 
+        min-width: $min-width-Container;
+        
+        max-height: $max-height-Container-Menu;
+        min-height: $min-height-Container_Menu;
+
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
 
         
         
