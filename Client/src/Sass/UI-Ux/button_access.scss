@@ -9,6 +9,13 @@
 
 
 @mixin styles_phone () {
+
+    max-width: 70%;
+    min-width: 50%;
+
+    height: 40px;
+
+    margin: 5px auto;
   
     background-color: yellow;
    
@@ -28,6 +35,11 @@
 @mixin styles_desktop () {
 
   background-color: red;
+
+  margin: 0 auto;
+
+  max-width: 100px;
+  max-height: 30px;
 
    
 }
