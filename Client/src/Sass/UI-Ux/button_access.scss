@@ -15,8 +15,14 @@
 }
 
 @mixin styles_tablets () {
+
+
+    max-width: 70%;
+    min-width: 100px;
+
+    margin: 0 auto;
  
-    background-color: blue;
+    background-color: rgb(145, 255, 0);
 }
 
 @mixin styles_desktop () {
@@ -34,6 +40,9 @@
         // STYLES BY DEFAULT
         border-radius: 30px;
         background-color: blue;
+       
+        min-width: 200px;
+        max-height: 50px;
        
         /* Others globals styles */
      
