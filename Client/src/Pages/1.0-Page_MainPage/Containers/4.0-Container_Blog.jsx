@@ -7,7 +7,86 @@ export const Container_Blog = () => {
     return (
 
         <div className = "container_blog" >
-            <h1>Container blog</h1>
+
+            <section className = "wrapper_blog"> 
+
+                <figure className =" box_one figure_about_logo" >
+                    <img src="" alt="img_about_logo" /> 
+                </figure>
+
+                <div className = "box_two info_about_blog"> 
+                    <h3>tittle blog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                </div>
+
+                <div className ="box_three about_blog"> 
+                    <div> 1 </div>
+                    <div> 2 </div>
+                    <div> 3 </div>
+                </div>
+
+            </section>
+
+            <section className = "wrapper_blog"> 
+
+                <figure className =" box_one figure_about_logo" >
+                    <img src="" alt="img_about_logo" /> 
+                </figure>
+
+                <div className = "box_two info_about_blog"> 
+                    <h3>tittle blog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                </div>
+
+                <div className ="box_three about_blog"> 
+                    <div> 1 </div>
+                    <div> 2 </div>
+                    <div> 3 </div>
+                </div>
+
+
+            </section>
+
+            
+
+            <section className = "wrapper_blog">
+
+                <figure className =" box_one figure_about_logo" >
+                    <img src="" alt="img_about_logo" /> 
+                </figure>
+
+                <div className = "box_two info_about_blog"> 
+                    <h3>tittle blog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                </div>
+
+                <div className ="box_three about_blog"> 
+                    <div> 1 </div>
+                    <div> 2 </div>
+                    <div> 3 </div>
+                </div>
+
+            </section>
+
+            <section className = "wrapper_blog">
+                
+                <figure className =" box_one figure_about_logo" >
+                    <img src="" alt="img_about_logo" /> 
+                </figure>
+
+                <div className = "box_two info_about_blog"> 
+                    <h3>tittle blog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                </div>
+
+                <div className ="box_three about_blog"> 
+                    <div> 1 </div>
+                    <div> 2 </div>
+                    <div> 3 </div>
+                </div>
+
+            </section>
+            
         </div>
     )
 }
