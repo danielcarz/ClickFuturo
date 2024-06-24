@@ -8,6 +8,17 @@
 
 
 @mixin styles_phone () {
+
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  height: 200px;
+
     
   border: 1px solid green; 
    
@@ -20,11 +31,15 @@
   flex-direction: column;
   justify-content: center;
 
+  height: 250px;
+
   border: 1px solid green; 
 
 }
 
 @mixin styles_desktop () {
+
+  height: 300px;
 
     border: 1px solid green; 
    
@@ -40,7 +55,11 @@
         max-width: $max-width-Container;
         min-width: $min-width-Container; 
         
- 
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
         
         /* Others globals styles */
