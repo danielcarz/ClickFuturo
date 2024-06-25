@@ -9,6 +9,51 @@
 
 
 @mixin styles_phone () {
+
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid green;
+
+  .wrapper_logo{
+
+    width: 30%;
+
+    border: 1px solid black;
+  }
+
+
+  .wrapper_info{
+    
+    width: 70%;
+    
+    border: 1px solid black;
+
+    .box_info{
+      
+      text-align: center;
+      list-style: none;
+      
+      padding: 0;
+
+      .about_clic_futuro{
+        display: none;
+      }
+
+      .box_info-media{
+        display: none;
+        img{
+          
+        }
+
+      }
+    }
+  }
+
+  height: 70px;
   
     background-color: yellow;
    
@@ -32,23 +77,10 @@
 .navbar{
 
         // STYLES BY DEFAULT
-        border: 1px solid green;
 
-        .wrapper_info{
-          
+        display: flex;
 
-          .box_info{
-            display: flex;
-
-            
-            .box_info-media{
-
-
-            }
-          }
-        }
-
-        height: 70px;
+       
        
         /* Others globals styles */
      

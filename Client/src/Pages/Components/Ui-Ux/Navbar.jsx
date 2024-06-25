@@ -39,7 +39,7 @@ export const Navbar = () => {
 
                 <ul className='box_info'>
 
-                    <li>Aerca de clic futuro</li>
+                    <li className = "about_clic_futuro" >Aerca de clic futuro</li>
                     <li>Blog informatico</li>
 
                     <figure className='box_info-media'>
