@@ -1,6 +1,6 @@
 //imports containers
 
-import { 
+import {
     Container_Presentation, 
     Container_Menu, 
     Container_Blog,
@@ -18,7 +18,7 @@ export const  MainPage = () => {
         <Layout>
 
             <>  
-                <Navbar> navbar Components </Navbar>
+                <Navbar></Navbar>
                 <Container_Presentation></Container_Presentation>
                 <Container_Menu></Container_Menu>
                 <Container_Blog></Container_Blog>
