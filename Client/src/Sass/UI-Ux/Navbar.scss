@@ -109,6 +109,7 @@
   .wrapper_info{
     
     width: 80%;
+    height: auto;
 
     border: 1px solid yellow;
 
@@ -142,6 +143,7 @@
         // STYLES BY DEFAULT
 
         display: flex;
+        height: auto;
 
         .box_language{
 
@@ -149,6 +151,10 @@
 
           display: flex;
           justify-content: right;
+
+          .dropdown-menu{
+            display: block;
+          }
 
         }
 

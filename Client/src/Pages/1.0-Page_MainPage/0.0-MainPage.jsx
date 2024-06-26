@@ -38,7 +38,7 @@ export const  MainPage = () => {
                 <Container_Blog></Container_Blog>
                 <Container_Adevertisements></Container_Adevertisements>
                 <Container_Footer></Container_Footer>
-                <button onClick={ buttonTest }> buton test</button> 
+                
             </> 
 
 

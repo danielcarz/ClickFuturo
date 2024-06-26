@@ -1,7 +1,8 @@
-//import React from 'react';
+import React, { useContext } from 'react';
 //import { Link, NavLink, useNavigate } from 'react-router-dom';
 
-
+//CONTEXT
+import { Contex } from '../Hooks/Contex/CreateContex';
 
 //styles
 import '../../../Sass/UI-Ux/Navbar.scss';
@@ -25,6 +26,14 @@ export const Navbar = () => {
             i18n.changeLanguage("es"); 
         }
     }; */
+
+    const { toggle, isTrue } = useContext( Contex ); 
+
+    const displayingLanguageOptions = () => {
+
+        toggle();
+
+    }
  
     return ( 
         <nav className='navbar' >
@@ -51,7 +60,15 @@ export const Navbar = () => {
                 </ul>
 
                 <div className='box_language'>
-                    <div>selecionar idioma</div>
+                   <button onClick={ displayingLanguageOptions }> Cambiar idioma
+                     { isTrue && (
+                        <div className='dropdown-menu' >
+                            <div className="dropdown-item">Option 1</div>
+                            <div className="dropdown-item">Option 2</div>
+                            <div className="dropdown-item">Option 3</div>
+                        </div>
+                     ) }
+                   </button>
                 </div>
 
 
