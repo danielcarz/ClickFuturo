@@ -50,13 +50,15 @@ export const Navbar = () => {
                     </figure>
                 </ul>
 
+                <div className='box_language'>
+                    <div>selecionar idioma</div>
+                </div>
+
+
            </section>
  
         
      
-            <div className='social-Wrapper'>
-
-            </div>
         </nav>
     )
 }
