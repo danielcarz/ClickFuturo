@@ -9,6 +9,10 @@
 
 @mixin styles_phone () {
   
+  display: grid;
+  grid-template-columns: repeat(2, minmax(1, 2fr));
+  gap: 10px;
+  border: 1px solid green;
   
 
   .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
@@ -17,10 +21,13 @@
 
   .box{
    
-
+    
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 0.4fr));
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 10px;
+    border: 1px solid black;
+   
+ 
     
   }
 
@@ -106,8 +113,12 @@
         min-height: $min-height-Container_Menu;
 
         
-        display: flex;
-        flex-direction: column;
+       /*  display: flex;
+        flex-direction: column; */
+
+        display: grid; // Apply grid layout here if needed
+        grid-template-columns: repeat(2, minmax(1, 2fr));
+        gap: 10px;
         
 
         
