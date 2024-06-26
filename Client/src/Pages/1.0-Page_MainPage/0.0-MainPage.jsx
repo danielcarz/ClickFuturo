@@ -18,9 +18,14 @@ import { Layout, Navbar } from '../Components/Ui-Ux';
 
 export const  MainPage = () => {
 
-    const { testContext } = useContext( Contex );
+    const { toggle, isTrue } = useContext( Contex );
 
-    console.log( testContext );
+    const buttonTest = () => {
+
+        toggle();
+
+    }
+    console.log( isTrue );
 
     return(
 
@@ -33,7 +38,8 @@ export const  MainPage = () => {
                 <Container_Blog></Container_Blog>
                 <Container_Adevertisements></Container_Adevertisements>
                 <Container_Footer></Container_Footer>
-            </>
+                <button onClick={ buttonTest }> buton test</button> 
+            </> 
 
 
         </Layout>
