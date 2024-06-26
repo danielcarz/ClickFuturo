@@ -60,11 +60,74 @@
 }
 
 @mixin styles_tablets () {
+
+  .wrapper_logo{
+
+    width: 10%;
+
+    border: 1px solid yellow;
+    
+  }
+  
+  .wrapper_info{
+    
+    width: 80%;
+
+    border: 1px solid yellow;
+
+    .box_info{
+
+      display: flex;
+      justify-content: space-between;
+
+      border: 1px solid black;
+
+      .box_info-media{
+
+        max-width: 300px;
+        min-width: 100px;
+        
+        border: 1px solid yellow;
+      }
+    }
+  }
  
     background-color: blue;
 }
 
 @mixin styles_desktop () {
+
+  
+  .wrapper_logo{
+
+    width: 10%;
+
+    border: 1px solid yellow;
+    
+  }
+  
+  .wrapper_info{
+    
+    width: 80%;
+
+    border: 1px solid yellow;
+
+    .box_info{
+
+      display: flex;
+      justify-content: space-between;
+
+      border: 1px solid black;
+
+      .box_info-media{
+
+        max-width: 300px;
+        min-width: 200px;
+
+        border: 1px solid yellow;
+      }
+    }
+  }
 
   background-color: red;
 
