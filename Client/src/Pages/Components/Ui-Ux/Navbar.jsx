@@ -60,8 +60,11 @@ export const Navbar = () => {
                 </ul>
 
                 <div className='box_language'>
+
                    <button onClick={ displayingLanguageOptions }> Cambiar idioma
+
                      { isTrue && (
+                        
                         <div className='dropdown-menu' >
                             <div className="dropdown-item">Option 1</div>
                             <div className="dropdown-item">Option 2</div>

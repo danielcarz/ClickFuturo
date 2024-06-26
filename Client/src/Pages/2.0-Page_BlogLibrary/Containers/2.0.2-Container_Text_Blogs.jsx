@@ -1,4 +1,4 @@
-export const Container_Grid_Blogs = () => {
+export const Container_Text_Blogs = () => {
 
     return(
 
