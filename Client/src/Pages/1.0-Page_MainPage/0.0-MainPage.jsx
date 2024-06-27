@@ -18,7 +18,7 @@ import { Layout, Navbar } from '../Components/Ui-Ux';
 
 export const  MainPage = () => {
 
-    const { toggle, isTrue } = useContext( Contex );
+    const { toggle, isTrue  } = useContext( Contex );
 
     const buttonTest = () => {
 

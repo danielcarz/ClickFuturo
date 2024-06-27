@@ -1,7 +1,14 @@
+import { useContext } from 'react';
+
+//CONTEX
+import { Contex } from '../../Components/Hooks/Contex/CreateContex';
+
 //SASS
 import '../../../Sass/Pages/1.0-Page_MainPage/Containers/4.0-SASS-Container_Blog.scss';
 
 export const Container_Blog = () => {
+
+    const { goToHomelibrary } = useContext( Contex );
 
 
     return (
@@ -17,6 +24,7 @@ export const Container_Blog = () => {
                 <div className = "box_two info_about_blog"> 
                     <h3>tittle blog</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                    <p onClick={ goToHomelibrary }> Leer mas... </p>
                 </div>
 
                 <div className ="box_three about_blog"> 
@@ -36,6 +44,8 @@ export const Container_Blog = () => {
                 <div className = "box_two info_about_blog"> 
                     <h3>tittle blog</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+
+                    <p onClick={ goToHomelibrary }> Leer mas... </p>
                 </div>
 
                 <div className ="box_three about_blog"> 
@@ -58,6 +68,7 @@ export const Container_Blog = () => {
                 <div className = "box_two info_about_blog"> 
                     <h3>tittle blog</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                    <p onClick={ goToHomelibrary }> Leer mas... </p>
                 </div>
 
                 <div className ="box_three about_blog"> 
@@ -77,6 +88,7 @@ export const Container_Blog = () => {
                 <div className = "box_two info_about_blog"> 
                     <h3>tittle blog</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                    <p onClick={ goToHomelibrary }> Leer mas... </p>
                 </div>
 
                 <div className ="box_three about_blog"> 

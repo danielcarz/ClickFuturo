@@ -10,8 +10,17 @@ export const useNavigateHandler = () => {
         navigate('/bloglibrary');
     }
 
+    const goToHomelibrary = () => {
+
+        navigate('/bloglibrary/bloghome')
+    }
+
     return {
 
+        //blog library
         goToBlogLibrary,
+
+        //home library
+        goToHomelibrary
     }
 }

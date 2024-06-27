@@ -12,7 +12,7 @@ export const ContexProvider = ( { children } ) => {
     const { toggle, isTrue } = useBoolean();
     
     //use navigate hook
-    const { goToBlogLibrary } = useNavigateHandler();
+    const { goToBlogLibrary, goToHomelibrary } = useNavigateHandler();
 
     return(
 
@@ -28,8 +28,9 @@ export const ContexProvider = ( { children } ) => {
                     toggle,
                     isTrue,
 
-                    //use navigate hook
-                    goToBlogLibrary,
+                    //use navigate handler
+                    goToBlogLibrary, //blog library 
+                    goToHomelibrary  // home library
                 }
 
             }
