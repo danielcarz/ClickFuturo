@@ -1,0 +1,95 @@
+//VARIABLES (it musb be in the first position)
+@use '../../../Mixins/Variables.scss' as * ;
+
+//MEDIA
+@import '../../../Mixins/MediaQueries.scss';
+
+//@import 'bootstrap/scss/bootstrap';
+
+
+@mixin styles_phone () {
+    
+  
+  
+}
+
+@mixin styles_tablets () {
+  
+  
+  
+   
+
+}
+
+@mixin styles_desktop () {
+  
+  padding: 10px;
+
+  .blogHome_one{
+
+    display: flex;
+
+
+    .blogHome_introductionBlog{
+
+      width: 70%;
+
+      border: 1px solid black;
+    }
+
+    .blogHome_aboutblog{
+
+      width: 30%;
+
+      border: 1px solid black;
+    }
+  }
+
+  .blogHome_two{
+
+    width: 100%;
+
+    border: 1px solid black;
+  }
+   
+}
+
+
+
+ 
+.container_blogHome{
+
+        //CONFIGURATION BY DEFAULT
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        
+        
+       
+
+       
+
+        
+
+        
+   
+
+       
+     
+  
+
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}
