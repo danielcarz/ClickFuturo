@@ -1,14 +1,18 @@
 import { Contex } from "./CreateContex";
 
 //HOOKS AND CUSTOM HOOKS
-import { useBoolean } from '../CustomsHooks/1.0-useBoolean';
+import { useBoolean, useNavigateHandler } from '../index';
 
 
 export const ContexProvider = ( { children } ) => {
 
     const testContext = "text context";
 
-    const { toggle, isTrue } = useBoolean(); 
+    //use boolean hook
+    const { toggle, isTrue } = useBoolean();
+    
+    //use navigate hook
+    const { goToBlogLibrary } = useNavigateHandler();
 
     return(
 
@@ -20,8 +24,12 @@ export const ContexProvider = ( { children } ) => {
 
                     testContext,
 
+                    //use boolean hook
                     toggle,
                     isTrue,
+
+                    //use navigate hook
+                    goToBlogLibrary,
                 }
 
             }
