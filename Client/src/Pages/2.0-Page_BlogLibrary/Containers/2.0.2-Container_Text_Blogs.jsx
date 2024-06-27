@@ -1,5 +1,5 @@
 //SASS
-import '../../../Sass/Pages/2.0-BlogLibrary/Containers/2.0-SASS-Container_Presentation.scss';
+import '../../../Sass/Pages/2.0-BlogLibrary/Containers/2.0-SASS-Container_Text_Blog.scss';
 
 export const Container_Text_Blogs = () => {
 
@@ -8,7 +8,7 @@ export const Container_Text_Blogs = () => {
         <div className="container_text-blog">
 
             <section className="wrapper_one wrapper_text-blog">
-                
+
                 <figure className="box_one-image-blog">
                     <img src="" alt="image-blog" />
                 </figure>
