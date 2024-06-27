@@ -27,7 +27,7 @@ export const Navbar = () => {
         }
     }; */
 
-    const { toggle, isTrue } = useContext( Contex ); 
+    const { toggle, isTrue, goToBlogLibrary } = useContext( Contex ); 
 
     const displayingLanguageOptions = () => {
 
@@ -49,7 +49,7 @@ export const Navbar = () => {
                 <ul className='box_info'>
 
                     <li className = "about_clic_futuro" >Aerca de clic futuro</li>
-                    <li>Blog informatico</li>
+                    <li onClick={ goToBlogLibrary }>Blog informatico</li>
 
                     <figure className='box_info-media'>
 
