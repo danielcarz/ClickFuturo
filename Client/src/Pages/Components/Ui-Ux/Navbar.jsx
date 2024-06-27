@@ -45,7 +45,7 @@ export const Navbar = () => {
            </figure>
 
            <section className='wrapper_info'>
-
+ 
                 <ul className='box_info'>
 
                     <li className = "about_clic_futuro" >Aerca de clic futuro</li>

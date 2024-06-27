@@ -12,7 +12,7 @@ export const Container_Text_Blogs = () => {
                 <figure className="box_one-image-blog">
                     <img src="" alt="image-blog" />
                 </figure>
-
+  
                 <section className="box_two-about-blog">
                     <h3>title about blog</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
