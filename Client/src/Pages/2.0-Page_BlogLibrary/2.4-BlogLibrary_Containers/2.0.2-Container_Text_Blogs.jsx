@@ -14,8 +14,8 @@ export const Container_Text_Blogs = () => {
                 </figure>
   
                 <section className="box_two-about-blog">
-                    <h3>title about blog</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>ACERCA DE LA TERMINAL</h3>
+                    <p> BREVE INTRODUCCION SOBRE LA TERMINAL</p>
                 </section>
 
             </section>

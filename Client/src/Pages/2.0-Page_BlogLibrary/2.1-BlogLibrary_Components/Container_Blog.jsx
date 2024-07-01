@@ -15,8 +15,8 @@ export const Container_Blog = () => {
                 </figure>
 
                 <div className = "box_two info_about_blog"> 
-                    <h3>tittle blog</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                    <h3>ACERCA DE LA TERMINAL</h3>
+                    <p>BREVE INTRODUCCION SOBRE LA TERMIANL</p>
                 </div>
 
                 <div className ="box_three about_blog"> 
