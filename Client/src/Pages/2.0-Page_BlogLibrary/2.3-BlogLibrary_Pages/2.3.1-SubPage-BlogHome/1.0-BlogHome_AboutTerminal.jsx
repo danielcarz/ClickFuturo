@@ -2,7 +2,7 @@
  
 
 //blog home
-export { BlogHome_Container } from './0.0-BlogHome.jsx';
+import { BlogHome_Container } from './0.0-BlogHome.jsx';
 
 export const Blog_Aboutterminal = () => {
 
@@ -13,7 +13,8 @@ export const Blog_Aboutterminal = () => {
 
             <h1> about terminal </h1> 
 
-        </BlogHome_Container>        
+        </BlogHome_Container>    
+       
  
  
 
