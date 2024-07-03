@@ -1,8 +1,14 @@
+import React, { useContext } from 'react';
+
+//CONTEX
+import { Contex } from '../../Components/Hooks/Contex/CreateContex';
+
 //SASS
 import '../../../Sass/Pages/1.0-Page_MainPage/Containers/4.0-SASS-Container_Blog.scss';
 
 export const Container_Blog = () => {
 
+    const { goToAboutTerminal } = useContext ( Contex );
 
     return (
 
@@ -17,6 +23,7 @@ export const Container_Blog = () => {
                 <div className = "box_two info_about_blog"> 
                     <h3>ACERCA DE LA TERMINAL</h3>
                     <p>BREVE INTRODUCCION SOBRE LA TERMIANL</p>
+                    <p onClick={ goToAboutTerminal } > Leer mas...</p>
                 </div>
 
                 <div className ="box_three about_blog"> 

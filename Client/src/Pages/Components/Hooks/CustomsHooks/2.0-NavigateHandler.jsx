@@ -15,12 +15,21 @@ export const useNavigateHandler = () => {
         navigate('/bloglibrary/bloghome')
     }
 
+    const goToAboutTerminal = () => {
+
+        navigate('/bloglibrary/bloghome/aboutterminal')
+    }
+
     return {
 
         //blog library
         goToBlogLibrary,
 
         //home library
-        goToHomelibrary
+        goToHomelibrary,
+
+        //go to about terminal
+        goToAboutTerminal,
+
     }
 }
