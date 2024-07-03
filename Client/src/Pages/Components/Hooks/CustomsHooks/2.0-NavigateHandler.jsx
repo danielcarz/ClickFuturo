@@ -12,12 +12,17 @@ export const useNavigateHandler = () => {
 
     const goToHomelibrary = () => {
 
-        navigate('/bloglibrary/bloghome')
+        navigate('/bloglibrary/bloghome');
     }
 
     const goToAboutTerminal = () => {
 
-        navigate('/bloglibrary/bloghome/aboutterminal')
+        navigate('/bloglibrary/bloghome/aboutterminal');
+    }
+
+    const goToAboutClickfuturo = () => {
+
+        navigate('./aboutclickfuturo');
     }
 
     return {
@@ -30,6 +35,9 @@ export const useNavigateHandler = () => {
 
         //go to about terminal
         goToAboutTerminal,
+
+        //go to about click futuro
+        goToAboutClickfuturo, 
 
     }
 }

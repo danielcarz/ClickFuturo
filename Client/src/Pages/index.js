@@ -3,6 +3,9 @@
 //main page
 export * from './1.0-Page_MainPage/0.0-MainPage';
 
+//about click futuro
+export * from './3.0-Page_AboutClickFuturo/0.0-About_ClickFuturo.jsx';
+
 //blog library
 export * from './2.0-Page_BlogLibrary/BlogLibrary';
 

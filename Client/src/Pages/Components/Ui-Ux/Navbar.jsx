@@ -9,25 +9,8 @@ import '../../../Sass/UI-Ux/Navbar.scss';
 
 export const Navbar = () => {
  
-   //const { linkedinImage, gitHubImage, cvImage, curriculumVitae,  dIcon, cIcon, lightDark, isTrue, setIsTrue, toggle,  t, i18n,  isSpanish, setIsSpanish, toggleLanguage,  esIcon,   enIcon } = useContext( Contex );
 
-   /*  const changeColorInterface = () => {
-        toggle();  
-    }; 
-
-    const changeLanguage = () => {
-
-        toggleLanguage();
-
-        if ( isSpanish ) {
-            i18n.changeLanguage("en"); 
-        } else {
-            
-            i18n.changeLanguage("es"); 
-        }
-    }; */
-
-    const { toggle, isTrue, goToBlogLibrary } = useContext( Contex ); 
+    const { toggle, isTrue, goToBlogLibrary, goToAboutClickfuturo } = useContext( Contex ); 
 
     const displayingLanguageOptions = () => {
 
@@ -48,7 +31,7 @@ export const Navbar = () => {
  
                 <ul className='box_info'>
 
-                    <li className = "about_clic_futuro" >Aerca de clic futuro</li>
+                    <li  onClick={ goToAboutClickfuturo } className = "about_clic_futuro" >Aerca de clic futuro</li>
                     <li onClick={ goToBlogLibrary }>Blog informatico</li>
 
                     <figure className='box_info-media'>
