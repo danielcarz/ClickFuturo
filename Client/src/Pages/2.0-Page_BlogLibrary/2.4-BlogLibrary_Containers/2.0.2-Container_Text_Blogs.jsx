@@ -1,13 +1,20 @@
+import React,  { useContext } from 'react';
+
+//CONTEX
+import { Contex } from '../../Components/Hooks/Contex/CreateContex';
+
 //SASS
 import '../../../Sass/Pages/2.0-BlogLibrary/Containers/2.0-SASS-Container_Text_Blog.scss';
 
 export const Container_Text_Blogs = () => {
 
+    const { goToAboutTerminal } =  useContext ( Contex );
+
     return(
 
         <div className="container_text-blog">
 
-            <section className="wrapper_one wrapper_text-blog">
+            <section className="wrapper_one wrapper_text-blog" onClick={ goToAboutTerminal } >
 
                 <figure className="box_one-image-blog">
                     <img src="" alt="image-blog" />
