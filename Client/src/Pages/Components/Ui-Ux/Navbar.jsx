@@ -10,7 +10,7 @@ import '../../../Sass/UI-Ux/Navbar.scss';
 export const Navbar = () => {
  
 
-    const { toggle, isTrue, goToBlogLibrary, goToAboutClickfuturo } = useContext( Contex ); 
+    const { toggle, isTrue, goToBlogLibrary, goToAboutClickfuturo, clickFuturo_logo } = useContext( Contex ); 
 
     const displayingLanguageOptions = () => {
 
@@ -23,7 +23,7 @@ export const Navbar = () => {
 
            <figure className='wrapper_logo'>
 
-                <img src="" alt="logo" />
+                <img src= { clickFuturo_logo }  alt="logo" />
 
            </figure>
 
