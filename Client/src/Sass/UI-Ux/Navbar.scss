@@ -121,7 +121,7 @@
     width: 10%;
     height: auto;
 
-    border: 1px solid rgb(211, 5, 5);
+    border: 1px solid rgb(19, 18, 18);
 
     img{
 
@@ -132,7 +132,7 @@
       min-height: 80px;
       max-height: 100px;
 
-      border: 1px solid black;
+      border: 1px solid rgb(245, 8, 8);
     }
     
   }
@@ -144,14 +144,14 @@
 
     margin-right: 10px;
 
-    border: 1px solid black;
+    border: 1px solid rgb(13, 17, 245);
 
     .box_info{
 
       display: flex;
       justify-content: space-between;
 
-      border: 1px solid black;
+      border: 1px solid rgb(238, 7, 7);
 
       .box_info-media{
 
@@ -175,7 +175,7 @@
         // STYLES BY DEFAULT
 
         display: flex;
-        height: auto;
+        max-height: 120px;
 
         .box_language{
 

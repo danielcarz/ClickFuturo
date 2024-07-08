@@ -7,6 +7,9 @@ import { Contex } from '../Hooks/Contex/CreateContex';
 //styles
 import '../../../Sass/UI-Ux/Navbar.scss';
 
+//ui/ux COMPONENTS
+import { ButtonAccess } from '../Ui-Ux/Button_access';
+
 export const Navbar = () => {
  
 
@@ -44,7 +47,7 @@ export const Navbar = () => {
 
                 <div className='box_language'>
 
-                   <button onClick={ displayingLanguageOptions }> Cambiar idioma
+                   <ButtonAccess onClick={ displayingLanguageOptions }> Cambiar idioma
 
                      { isTrue && (
                         
@@ -54,7 +57,7 @@ export const Navbar = () => {
                             <div className="dropdown-item">Option 3</div>
                         </div>
                      ) }
-                   </button>
+                   </ButtonAccess>
                 </div>
 
 

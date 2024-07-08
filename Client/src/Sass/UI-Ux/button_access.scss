@@ -23,13 +23,13 @@
 
 @mixin styles_tablets () {
 
-
+ 
     max-width: 70%;
     min-width: 100px;
 
     margin: 0 auto;
  
-    background-color: rgb(145, 255, 0);
+    background-color: rgb(5, 79, 240);
 }
 
 @mixin styles_desktop () {
