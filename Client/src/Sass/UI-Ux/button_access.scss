@@ -29,17 +29,20 @@
 
     margin: 0 auto;
  
-    background-color: rgb(5, 79, 240);
+    //background-color: rgb(5, 79, 240);
 }
 
 @mixin styles_desktop () {
 
-  background-color: red;
+  //background-color: red;
 
   margin: 0 auto;
 
-  max-width: 100px;
-  max-height: 30px;
+  //max-width: 100px;
+  //max-height: 30px;
+
+
+  
 
    
 }
@@ -51,12 +54,20 @@
 
         // STYLES BY DEFAULT
         border-radius: 30px;
-        background-color: blue;
+        //background-color: blue;
        
-        min-width: 200px;
-        max-height: 50px;
+        //min-width: 200px;
+        
        
         /* Others globals styles */
+
+
+        .changeLanguage_button{
+
+          //the styles are found in navbar.scss
+        }
+
+
      
   
 
@@ -73,3 +84,4 @@
   }
 
 }
+

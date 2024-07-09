@@ -13,7 +13,7 @@ import { ButtonAccess } from '../Ui-Ux/Button_access';
 export const Navbar = () => {
  
 
-    const { toggle, isTrue, goToBlogLibrary, goToAboutClickfuturo, clickFuturo_logo } = useContext( Contex ); 
+    const { toggle, isTrue, goToBlogLibrary, goToAboutClickfuturo, clickFuturo_logo, worldLanguage_icon } = useContext( Contex ); 
 
     const displayingLanguageOptions = () => {
 
@@ -47,17 +47,26 @@ export const Navbar = () => {
 
                 <div className='box_language'>
 
-                   <ButtonAccess onClick={ displayingLanguageOptions }> Cambiar idioma
+                   <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
 
-                     { isTrue && (
-                        
-                        <div className='dropdown-menu' >
-                            <div className="dropdown-item">Option 1</div>
-                            <div className="dropdown-item">Option 2</div>
-                            <div className="dropdown-item">Option 3</div>
-                        </div>
-                     ) }
+                        <figure className='buttonaccess_box_worldlanguage' >
+                            
+                            <img   src= { worldLanguage_icon } alt="" />
+                            
+                        </figure>    
+
+                        Cambiar idioma
+
+                        { isTrue && (
+                            
+                            <div className='dropdown-menu' >
+                                <div className="dropdown-item">English</div>
+                                <div className="dropdown-item">Español</div>
+                                
+                            </div>
+                        ) }
                    </ButtonAccess>
+
                 </div>
 
 

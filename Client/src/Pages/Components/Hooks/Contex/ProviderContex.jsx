@@ -18,7 +18,7 @@ export const ContexProvider = ( { children } ) => {
     const { goToBlogLibrary, goToHomelibrary, goToAboutTerminal, goToAboutClickfuturo } = useNavigateHandler();
 
     //use image collection
-    const { clickFuturo_logo } = useImageCollection();
+    const { clickFuturo_logo, worldLanguage_icon } = useImageCollection();
 
     return(
 
@@ -41,7 +41,11 @@ export const ContexProvider = ( { children } ) => {
                     goToAboutClickfuturo, // about click futuro
 
                     //use images collection
-                    clickFuturo_logo // click futuro's logo
+                        //logos
+                        clickFuturo_logo, // click futuro's logo
+
+                        //icons
+                        worldLanguage_icon // world language
                 }
 
             }

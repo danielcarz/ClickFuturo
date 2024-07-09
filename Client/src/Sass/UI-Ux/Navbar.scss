@@ -68,7 +68,7 @@
     width: 10%;
     height: auto;
 
-    border: 1px solid rgb(211, 5, 5);
+    border: 1px solid rgb(19, 18, 18);
 
     img{
 
@@ -79,7 +79,7 @@
       min-height: 80px;
       max-height: 100px;
 
-      border: 1px solid black;
+      border: 1px solid rgb(245, 8, 8);
     }
     
   }
@@ -87,28 +87,72 @@
   .wrapper_info{
     
     width: 80%;
-    height: auto;
+    min-height: 120px;
+    max-height: 130px;
 
     margin-right: 10px;
 
-    border: 1px solid black;
+    border: 1px solid rgb(13, 17, 245);
 
     .box_info{
 
       display: flex;
       justify-content: space-between;
 
-      border: 1px solid black;
+      border: 1px solid rgb(238, 7, 7);
 
       .box_info-media{
 
         max-width: 300px;
         min-width: 200px;
 
-        border: 1px solid yellow;
+        border: 1px solid rgb(248, 55, 6);
       }
     }
+
+    .box_language{
+
+     // width: 900px;
+      //height: 300px;
+
+       
+
+      border: 1px solid green;
+
+      .changeLanguage_button{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: transparent;
+        
+
+        height: 50px;
+        width: 190px;
+        
+        .buttonaccess_box_worldlanguage{
+
+          margin-top: 10px;
+
+          width: 70px; 
+          height: 40px;
+
+          
+
+          img{
+            
+             
+            width: 50px;
+          }
+        }
+        
+        
+      }
+    }
+   
   }
+
 }
 
 @mixin styles_desktop () {
@@ -140,7 +184,8 @@
   .wrapper_info{
     
     width: 80%;
-    height: auto;
+    min-height: 120px;
+    max-height: 130px;
 
     margin-right: 10px;
 
@@ -158,9 +203,51 @@
         max-width: 300px;
         min-width: 200px;
 
-        border: 1px solid yellow;
+        border: 1px solid rgb(248, 55, 6);
       }
     }
+
+    .box_language{
+
+     // width: 900px;
+      //height: 300px;
+
+       
+
+      border: 1px solid green;
+
+      .changeLanguage_button{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: transparent;
+        
+
+        height: 50px;
+        width: 190px;
+        
+        .buttonaccess_box_worldlanguage{
+
+          margin-top: 10px;
+
+          width: 70px; 
+          height: 40px;
+
+          
+
+          img{
+            
+             
+            width: 50px;
+          }
+        }
+        
+        
+      }
+    }
+   
   }
 
   
@@ -175,17 +262,40 @@
         // STYLES BY DEFAULT
 
         display: flex;
-        max-height: 120px;
+        min-height: 120px;
 
+        
         .box_language{
+          
+          
+          width: 240px;
+          height: 60px;
 
-          margin-right:10px;
+          border: 1px solid red;
+          
 
-          display: flex;
-          justify-content: right;
+          .changeLanguage_button{
+
+             // the button styles are  found in the button_acces.scss  
+
+            .buttonaccess_box_worldlanguage{
+
+              //width: 100px;
+              // height: 30px;
+
+              img{
+
+              
+              }
+            }
+            
+
+          }
+          
+          
 
           .dropdown-menu{
-            display: block;
+            display: block; 
           }
 
         }
