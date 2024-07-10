@@ -83,7 +83,7 @@
    
    
     max-width: 100%;
-    height: 50px; 
+    height: $max-height-Container-Menu; //auto 
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
@@ -129,6 +129,33 @@
         
       
         font-family: 'Arial', sans-serif;
+
+
+        .access_content{
+
+          width: 300px;
+
+          display: flex;
+          justify-content: space-around;
+          align-items: center; 
+
+          border-radius: 10px;
+
+          background-color: transparent;
+
+          border: 1px solid red;
+
+          .blog_icon{
+
+            width: 50px;
+
+
+            img{
+
+              width: 100%;
+            }
+          }
+        }
 
        
      
