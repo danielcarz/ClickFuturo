@@ -13,7 +13,19 @@ import { ButtonAccess } from '../Ui-Ux/Button_access';
 export const Navbar = () => {
  
 
-    const { toggle, isTrue, goToBlogLibrary, goToAboutClickfuturo, clickFuturo_logo, worldLanguage_icon } = useContext( Contex ); 
+    const { 
+            toggle,
+            isTrue,
+
+            //REDIRECTIONS
+            goToBlogLibrary,
+            goToAboutClickfuturo,
+
+            //IMAGES
+            instagram_icon,
+            gitHub_icon,
+            clickFuturo_logo,
+            worldLanguage_icon } = useContext( Contex ); 
 
     const displayingLanguageOptions = () => {
 
@@ -39,8 +51,8 @@ export const Navbar = () => {
 
                     <figure className='box_info-media'>
 
-                        <img src="" alt="instagram" />
-                        <img src="" alt="git hub" />
+                        <img src= { instagram_icon } alt="instagram" />
+                        <img src = { gitHub_icon } alt="git hub" />
 
                     </figure>
                 </ul>
