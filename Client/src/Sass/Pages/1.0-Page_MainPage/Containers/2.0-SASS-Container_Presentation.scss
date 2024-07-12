@@ -11,44 +11,60 @@
 
   height: $height-Container_Presentation;
 
+    
+
   .wrapper_presentation{
 
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    max-height:  $max-height-wrapper_presentation;
-    min-height: $min-height-wrapper_presentation;
+    margin: 0;
+    height: $max-height-wrapper_presentation; //100%
+   
 
-    justify-content: space-around;
+    border: 1px solid black;
 
-    text-align: center;
+    img{
 
-  }
-  
-    
+      max-width: 100%;
+      min-width: 100%;
+    }
+  } 
+
   border: 1px solid green; 
   
 }
 
 @mixin styles_tablets () {
   
-    height: $height-Container_Presentation;
+    
+  height: $height-Container_Presentation;
 
     
 
-    .wrapper_presentation{
+  .wrapper_presentation{
 
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-      max-height:  $max-height-wrapper_presentation;
-      min-height: $min-height-wrapper_presentation;
+    margin: 0;
+    height: $max-height-wrapper_presentation; //100%
+   
 
-      justify-content: space-around;
+    border: 1px solid black;
 
-      text-align: center;
+    img{
 
+      max-width: 100%;
+      min-width: 100%;
     }
+  } 
 
-    border: 1px solid green; 
+  border: 1px solid green; 
 
 }
 
@@ -60,16 +76,23 @@
 
     .wrapper_presentation{
 
-      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-      max-height:  $max-height-wrapper_presentation;
-      min-height: $min-height-wrapper_presentation;
+      margin: 0;
+      height: $max-height-wrapper_presentation; //100%
+     
 
-      justify-content: space-around;
+      border: 1px solid black;
 
-      text-align: center;
+      img{
 
-    }
+        max-width: 100%;
+        min-width: 100%;
+      }
+    } 
 
     border: 1px solid green; 
    
@@ -90,12 +113,8 @@
         align-items: center;
         justify-content: center;
 
-        //BACKGROUND
-         // BACKGROUND STYLES
-  background-image: url('../../../../assets/6.png');
-  background-size: cover; // Ajusta la imagen para cubrir todo el fondo
-  background-repeat: no-repeat; // Evita que la imagen se repita
-  background-position: center center; // Centra la imagen en el fondo
+        
+ 
         
        
         

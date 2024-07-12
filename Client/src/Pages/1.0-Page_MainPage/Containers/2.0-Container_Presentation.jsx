@@ -13,11 +13,15 @@ import { ButtonAccess } from '../../Components/Ui-Ux/index.js';
 
 export const Container_Presentation = () => {
 
+    const { portada } = useContext ( Contex );
+
     return(
 
         <div className = "container_presentation">
             
             <figure className = "wrapper_presentation">
+
+            <img src= { portada } alt="" />
 
                {/*  <div className = "box-one_title">
                     
