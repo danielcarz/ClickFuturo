@@ -107,11 +107,25 @@ export const Navbar = () => {
             </div>
 
             <div className='box-clickfuturo-icons'>
-                <ul className='navbar-icons'>
-                    <li>icon 1</li>
-                    <li>icon 2</li>
-                    <li>icon 3</li>
-                </ul>
+                
+                    
+                    <figure className='box navbar-icons'>
+                        <img src= { clickFuturo_logo } alt="" />
+                        <h6>acerca de click futuro</h6>
+                    </figure>
+
+                    <figure className='box navbar-icons'>
+                        <img src= { clickFuturo_logo } alt="" />
+                        <h6>acerca de click futuro</h6>
+                    </figure>
+
+                    <figure className='box navbar-icons'>
+                        <img src= { clickFuturo_logo } alt="" />
+                        <h6>acerca de click futuro</h6>
+                    </figure>
+                    
+                    
+               
             </div>
             
         

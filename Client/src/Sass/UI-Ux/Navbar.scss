@@ -50,21 +50,36 @@
     }
 
     .box-clickfuturo-icons{
+
+      
+
       width: 96%;
-      height: 50vh;
+      height: auto;
 
       background-color: black;
 
       position: fixed;
 
-      top: 100vh;
+      top: 90vh;
 
-      border: 1px solid black;
+      display: flex;
+      
 
-      .navbar-icons{
+      border: 1px solid rgba(194, 175, 175, 0.521);
 
-        display: flex;
-        justify-content: space-between;
+      .box{ 
+        margin-left: 10px;
+
+        width: 60px;  
+
+        border: 1px solid white;
+
+
+        img{
+          width: 50px;
+          height: 50px;
+        }
+        
       }
     } 
   }
