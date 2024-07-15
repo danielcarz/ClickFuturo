@@ -36,64 +36,85 @@ export const Navbar = () => {
     return ( 
         <nav className='navbar' >
 
-           <figure className='wrapper_logo'>
+        <div className='navbar_tablets_desktop'>
+
+            <figure className='wrapper_logo'>
 
                 <img src= { clickFuturo_logo }  alt="logo" />
 
-           </figure>
+            </figure>
 
-           <section className='wrapper_info'>
- 
-                <ul className='box_info'>
+            <section className='wrapper_info'>
 
-                    <li  onClick={ goToAboutClickfuturo } className = "about_clic_futuro" >Aerca de clic futuro</li>
-                    <li onClick={ goToBlogLibrary }>Blog informatico</li>
+            <ul className='box_info'>
 
-                    <figure className='box_info-media'>
+                <li  onClick={ goToAboutClickfuturo } className = "about_clic_futuro" >Aerca de clic futuro</li>
+                <li onClick={ goToBlogLibrary }>Blog informatico</li>
 
-                        <img src= { instagram_icon } alt="instagram" />
-                        <img src = { gitHub_icon } alt="git hub" />
+                <figure className='box_info-media'>
 
-                    </figure>
-                </ul>
+                    <img src= { instagram_icon } alt="instagram" />
+                    <img src = { gitHub_icon } alt="git hub" />
 
-                <div className='box_language'>
+                </figure>
+            </ul>
 
-                   <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
+            <div className='box_language'>
 
-                        <figure className='buttonaccess_box_worldlanguage' >
-                            
-                            <img   src= { worldLanguage_icon } alt="" />
-                            
-                        </figure>    
+            <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
 
-                        Cambiar idioma
-
-                        { isTrue && (
-                            
-                            <div className='dropdown-menu' >
-                                <div className="dropdown-item">English</div>
-                                <div className="dropdown-item">Español</div>
-                                
-                            </div>
-                        ) }
-                   </ButtonAccess>
-
-                </div>
-
-
-           </section>
-
-
-            <div className='navbar_phone'>
-                    <h1>
-                        navbar phone
-                    </h1>
-           </div> 
+                    <figure className='buttonaccess_box_worldlanguage' >
                         
+                        <img   src= { worldLanguage_icon } alt="" />
+                        
+                    </figure>    
+
+                    Cambiar idioma
+
+                    { isTrue && (
+                        
+                        <div className='dropdown-menu' >
+                            <div className="dropdown-item">English</div>
+                            <div className="dropdown-item">Español</div>
+                            
+                        </div>
+                    ) }
+            </ButtonAccess>
+
+            </div>
+
+
+            </section>
+
+        </div>
+    
+
+        <div className='navbar_phone'>
+
+            <div className='box-about_clickfuturo' >
+
+                <figure className='wrapper_logo'>
+
+                    <img src= { clickFuturo_logo }  alt="logo" />
+
+                </figure>
+
+                <section className='wrapper_name' >
+                    <h1> Click Futuro </h1>
+                </section>
+
+
+            </div>
+
+            <div className='box-clickfuturo-icons'>
+                <h1>click futuro icons</h1>
+            </div>
+            
         
-        
-     
-        </nav>
+        </div>
+
+                
+
+    </nav>
     )
 }
