@@ -107,7 +107,11 @@ export const Navbar = () => {
             </div>
 
             <div className='box-clickfuturo-icons'>
-                <h1>click futuro icons</h1>
+                <ul className='navbar-icons'>
+                    <li>icon 1</li>
+                    <li>icon 2</li>
+                    <li>icon 3</li>
+                </ul>
             </div>
             
         
