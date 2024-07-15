@@ -24,6 +24,8 @@ export const Navbar = () => {
             //IMAGES
             instagram_icon,
             gitHub_icon,
+            blog_incon,
+
             clickFuturo_logo,
             worldLanguage_icon } = useContext( Contex ); 
 
@@ -93,7 +95,7 @@ export const Navbar = () => {
 
             <div className='box-about_clickfuturo' >
 
-                <figure className='wrapper_logo'>
+                <figure className='wrapper_logo'> 
 
                     <img src= { clickFuturo_logo }  alt="logo" />
 
@@ -101,6 +103,7 @@ export const Navbar = () => {
 
                 <section className='wrapper_name' >
                     <h1> Click Futuro </h1>
+                    <h3 className='main-message'>tu guia sobre tecnologia y programacion</h3>
                 </section>
 
 
@@ -115,8 +118,8 @@ export const Navbar = () => {
                     </figure>
 
                     <figure className='box navbar-icons'>
-                        <img src= { clickFuturo_logo } alt="" />
-                        <h6>acerca de click futuro</h6>
+                        <img src= { blog_incon } alt="" />
+                        <h6>Blog informatico</h6>
                     </figure>
 
                     <figure className='box navbar-icons'>

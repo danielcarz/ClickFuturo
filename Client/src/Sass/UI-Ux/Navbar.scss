@@ -24,18 +24,18 @@
 
         margin-left: 10px;
     
-        width: 30%;
+        width: 20%; 
         height: auto;
     
-        border: 1px solid rgb(19, 18, 18);
+        border: 1px solid #706637;
     
         img{
     
           
     
           max-width: 100%;
-          min-width: 80px;
-          min-height: 80px;
+          min-width: 50px;
+          min-height: 60px; 
           max-height: 100px;
     
           border: 1px solid rgb(245, 8, 8);
@@ -44,7 +44,11 @@
       }
 
       .wrapper_name{
-        width: 50%;
+        width: 70%;
+
+        .main-message{
+          font-size: 12px;
+        }
       }
 
     }
@@ -53,14 +57,14 @@
 
       
 
-      width: 96%;
+      width: 96%; 
       height: auto;
 
-      background-color: black;
+      background-color: #474123;;
 
       position: fixed;
 
-      top: 90vh;
+      top: 90vh; 
 
       display: flex;
       
