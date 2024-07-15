@@ -83,7 +83,15 @@ export const Navbar = () => {
 
 
            </section>
- 
+
+
+            <div className='navbar_phone'>
+                    <h1>
+                        navbar phone
+                    </h1>
+           </div> 
+                        
+        
         
      
         </nav>
