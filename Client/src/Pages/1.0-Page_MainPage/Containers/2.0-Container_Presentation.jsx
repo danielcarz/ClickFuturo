@@ -21,7 +21,7 @@ export const Container_Presentation = () => {
             
             <figure className = "wrapper_presentation">
 
-            <img src= { portada } alt="" />
+                <img src= { portada } alt="" />
 
                {/*  <div className = "box-one_title">
                     
