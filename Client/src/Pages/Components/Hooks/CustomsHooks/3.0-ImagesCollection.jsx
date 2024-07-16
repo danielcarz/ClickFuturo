@@ -7,7 +7,7 @@ import gitHub_icon from '../../../../assets/git.png'; // git hub icon
 import blog_incon from '../../../../assets/blog.png'; //blog icon
 
 import portada from '../../../../assets/6.png'; // main portada
-import terminal_font from '../../../../assets/terminal_font.jpg'; // termianl font
+import terminal_font from '../../../../assets/terminal_font_blog.png'; // termianl font
 
 
 

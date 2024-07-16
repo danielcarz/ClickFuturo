@@ -18,7 +18,7 @@ export const Container_Blog = () => {
             <section className = "wrapper_blog"> 
 
                 <figure className =" box_one figure_about_logo" >
-                    <img src= "" alt="img_about_logo" /> 
+                    <img src= { terminal_font } alt="terminal_font" /> 
                 </figure>
 
                 <div className = "box_two info_about_blog"> 
