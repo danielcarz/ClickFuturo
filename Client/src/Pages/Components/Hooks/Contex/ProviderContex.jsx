@@ -18,7 +18,7 @@ export const ContexProvider = ( { children } ) => {
     const { goToBlogLibrary, goToHomelibrary, goToAboutTerminal, goToAboutClickfuturo } = useNavigateHandler();
 
     //use image collection
-    const { clickFuturo_logo, worldLanguage_icon, instagram_icon, gitHub_icon, terminal_icon, blog_incon, portada, terminal_font } = useImageCollection();
+    const { clickFuturo_logo, worldLanguage_icon, instagram_icon, gitHub_icon, terminal_icon, blog_incon, portada, terminal_font,  vite_font_blog } = useImageCollection();
 
     return(
 
@@ -55,7 +55,8 @@ export const ContexProvider = ( { children } ) => {
 
                         //fonts
                         portada,
-                        terminal_font
+                        terminal_font,
+                        vite_font_blog
                 }
 
             }

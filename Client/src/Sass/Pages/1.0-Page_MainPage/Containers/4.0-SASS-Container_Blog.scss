@@ -52,13 +52,41 @@
 
 @mixin styles_tablets () {
   
-  .wrapper_blog{
-    max-width: 100%;
-    
-  } 
- 
+  display: grid; 
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
 
-  border: 1px solid green; 
+  .wrapper_blog{
+
+    margin: 0 auto;  
+
+    border: 1px solid black;
+
+    .figure_about_logo{
+      
+      width: 100%;
+      
+      img{
+
+        width: 100%;
+        height: 250px;
+      }
+    }
+
+    .box_two{
+      h3{
+        text-align: center;
+      }
+      border: 1px solid black;
+    }
+
+    .box_three {
+      display: flex;
+      justify-content: space-around; 
+    }
+  }
+
+    border: 1px solid green; 
 
 }
 
@@ -80,8 +108,8 @@
       
       img{
 
-        width: 470px;
-        height: 300px;
+        width: 100%;
+        height: 350px;
       }
     }
 

@@ -7,9 +7,10 @@ import gitHub_icon from '../../../../assets/git.png'; // git hub icon
 import blog_incon from '../../../../assets/blog.png'; //blog icon
 
 import portada from '../../../../assets/6.png'; // main portada
-import terminal_font from '../../../../assets/terminal_font_blog.png'; // termianl font
+import terminal_font from '../../../../assets/terminales.jpg'; // termianl font
+import vite_font_blog from '../../../../assets/blogs_fonts/about_vite.png';
 
-
+ 
 
 export const useImageCollection = (  ) => {
 
@@ -32,6 +33,7 @@ export const useImageCollection = (  ) => {
 
             //FONT BLOGS
             terminal_font, // terminal font
+            vite_font_blog,
              
         //SOCIAL MEDIA
         instagram_icon, //instagram icon

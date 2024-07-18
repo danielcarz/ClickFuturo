@@ -8,12 +8,12 @@ import '../../../Sass/Pages/1.0-Page_MainPage/Containers/4.0-SASS-Container_Blog
 
 export const Container_Blog = () => {
 
-    const { goToHomelibrary, terminal_font } = useContext( Contex );
+    const { goToHomelibrary, terminal_font, terminal_icon, vite_font_blog } = useContext( Contex );
 
 
     return (
 
-        <div className = "container_blog" >
+        <div className = "container_blog" > 
 
             <section className = "wrapper_blog"> 
 
@@ -38,7 +38,7 @@ export const Container_Blog = () => {
             <section className = "wrapper_blog"> 
 
                 <figure className =" box_one figure_about_logo" >
-                    <img src="" alt="img_about_logo" /> 
+                    <img src={ vite_font_blog } alt="img_about_logo" /> 
                 </figure>
 
                 <div className = "box_two info_about_blog"> 
