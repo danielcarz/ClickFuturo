@@ -10,7 +10,7 @@ import '../../../Sass/Pages/1.0-Page_MainPage/Containers/3.0-SASS-Container_Menu
 
 export const  Container_Menu = () => {
 
-    const { terminal_icon } = useContext( Contex );
+    const { terminal_icon, vite_icon } = useContext( Contex );
 
     return(
  
@@ -24,7 +24,7 @@ export const  Container_Menu = () => {
             </div>
 
             <div className = "box box-two_menu_two"> 
-                <ButtonAccess className= "access_content">  <figure className='blog_icon'> <img src="" alt="logo_terminal" /> </figure> </ButtonAccess> 
+                <ButtonAccess className= "access_content">  <figure className='blog_icon'> <img src= { vite_icon } alt="logo_terminal" /> </figure> <h5>Acerca de vite</h5> </ButtonAccess> 
                 <ButtonAccess className= "access_content">  <figure className='blog_icon'> <img src="" alt="logo_terminal" /> </figure> </ButtonAccess> 
             
             </div>

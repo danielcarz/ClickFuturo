@@ -42,8 +42,8 @@ export const Container_Blog = () => {
                 </figure>
 
                 <div className = "box_two info_about_blog"> 
-                    <h3>tittle blog</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
+                    <h3>Acerca de vite </h3>
+                    <p>Vite pone fin a la frustración de la configuración compleja. Aprende cómo en nuestro blog! </p>
 
                     <p onClick={ goToHomelibrary }> Leer mas... </p>
                 </div>

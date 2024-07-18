@@ -5,6 +5,7 @@ import instagram_icon from '../../../../assets/instagram.png'; // instagram icon
 import terminal_icon from '../../../../assets/terminal.png'; // terminal icon
 import gitHub_icon from '../../../../assets/git.png'; // git hub icon
 import blog_incon from '../../../../assets/blog.png'; //blog icon
+import vite_icon from '../../../../assets/Icons/vitejIcon.png'; //vite icon
 
 import portada from '../../../../assets/6.png'; // main portada
 import terminal_font from '../../../../assets/terminales.jpg'; // termianl font
@@ -37,7 +38,8 @@ export const useImageCollection = (  ) => {
              
         //SOCIAL MEDIA
         instagram_icon, //instagram icon
-        gitHub_icon //github icon
+        gitHub_icon, //github icon
+        vite_icon
         
     }
 } 
