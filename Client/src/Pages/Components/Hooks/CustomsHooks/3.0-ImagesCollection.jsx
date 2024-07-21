@@ -10,6 +10,7 @@ import vite_icon from '../../../../assets/Icons/vitejIcon.png'; //vite icon
 import portada from '../../../../assets/6.png'; // main portada
 import terminal_font from '../../../../assets/terminales.jpg'; // termianl font
 import vite_font_blog from '../../../../assets/blogs_fonts/about_vite.png';
+import advertisemnt_font from '../../../../assets/blogs_fonts/3.png';
 
  
 
@@ -31,6 +32,9 @@ export const useImageCollection = (  ) => {
         //FONTS
             //MAIN FONT
             portada, // main font
+
+            //ADVERTISEMENT FONTS
+            advertisemnt_font,
 
             //FONT BLOGS
             terminal_font, // terminal font
