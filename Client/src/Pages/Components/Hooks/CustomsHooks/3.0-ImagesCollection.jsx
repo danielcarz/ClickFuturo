@@ -3,10 +3,11 @@ import  clickFuturo_logo  from '../../../../assets/clickLogo.png'; //clic futuro
 import worldLanguage_icon from '../../../../assets/worldLanguage.png'; //world icon
 import instagram_icon from '../../../../assets/instagram.png'; // instagram icon
 import terminal_icon from '../../../../assets/terminal.png'; // terminal icon
-import gitHub_icon from '../../../../assets/git.png'; // git hub icon
+import gitHub_icon from '../../../../assets/Icons/git.png'; // git hub icon
 import blog_incon from '../../../../assets/blog.png'; //blog icon
 import vite_icon from '../../../../assets/Icons/vitejIcon.png'; //vite icon
-
+import heart_icon from '../../../../assets/Icons/heart.png'; //heart
+ 
 import portada from '../../../../assets/6.png'; // main portada
 import terminal_font from '../../../../assets/terminales.jpg'; // termianl font
 import vite_font_blog from '../../../../assets/blogs_fonts/about_vite.png';
@@ -28,6 +29,7 @@ export const useImageCollection = (  ) => {
         worldLanguage_icon, //language icon
         terminal_icon, // terminal icon
         blog_incon, // blog icon
+        heart_icon, //heart
 
         //FONTS
             //MAIN FONT

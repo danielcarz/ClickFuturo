@@ -18,7 +18,7 @@ export const ContexProvider = ( { children } ) => {
     const { goToBlogLibrary, goToHomelibrary, goToAboutTerminal, goToAboutClickfuturo } = useNavigateHandler();
 
     //use image collection
-    const { clickFuturo_logo, worldLanguage_icon, instagram_icon, gitHub_icon, terminal_icon, blog_incon, vite_icon, portada, terminal_font,  vite_font_blog, advertisemnt_font } = useImageCollection();
+    const { clickFuturo_logo, worldLanguage_icon, instagram_icon, gitHub_icon, terminal_icon, blog_incon, heart_icon, vite_icon, portada, terminal_font,  vite_font_blog, advertisemnt_font } = useImageCollection();
 
     return(
 
@@ -49,6 +49,7 @@ export const ContexProvider = ( { children } ) => {
                         terminal_icon, //terminal icon
                         blog_incon,
                         vite_icon,
+                        heart_icon, 
 
                         //social
                         instagram_icon, // instragram icon

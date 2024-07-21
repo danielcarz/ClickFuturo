@@ -10,7 +10,7 @@ import '../../../Sass/Pages/1.0-Page_MainPage/Containers/3.0-SASS-Container_Menu
 
 export const  Container_Menu = () => {
 
-    const { terminal_icon, vite_icon } = useContext( Contex );
+    const { terminal_icon, vite_icon  } = useContext( Contex );
 
     return(
  

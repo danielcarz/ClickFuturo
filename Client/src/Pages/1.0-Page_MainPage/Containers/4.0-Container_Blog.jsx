@@ -8,7 +8,7 @@ import '../../../Sass/Pages/1.0-Page_MainPage/Containers/4.0-SASS-Container_Blog
 
 export const Container_Blog = () => {
 
-    const { goToHomelibrary, terminal_font, terminal_icon, vite_font_blog } = useContext( Contex );
+    const { goToHomelibrary, terminal_font, heart_icon, vite_font_blog } = useContext( Contex );
 
 
     return (
@@ -28,9 +28,9 @@ export const Container_Blog = () => {
                 </div>
 
                 <div className ="box_three about_blog"> 
-                    <div> 1 </div>
+                    <figure className='heart_icon'> <img src= { heart_icon  } alt="" /> </figure>
                     <div> 2 </div>
-                    <div> 3 </div>
+                    <div> julio / 2024 </div>
                 </div>
 
             </section>
@@ -49,9 +49,9 @@ export const Container_Blog = () => {
                 </div>
 
                 <div className ="box_three about_blog"> 
-                    <div> 1 </div>
+                    <figure className='heart_icon'> <img src= { heart_icon  } alt="" /> </figure>
                     <div> 2 </div>
-                    <div> 3 </div>
+                    <div> julio / 2024 </div>
                 </div>
 
 
@@ -72,9 +72,9 @@ export const Container_Blog = () => {
                 </div>
 
                 <div className ="box_three about_blog"> 
-                    <div> 1 </div>
+                    <figure className='heart_icon'> <img src= { heart_icon  } alt="" /> </figure>
                     <div> 2 </div>
-                    <div> 3 </div>
+                    <div> julio / 2024 </div>
                 </div>
 
             </section>
@@ -92,9 +92,9 @@ export const Container_Blog = () => {
                 </div>
 
                 <div className ="box_three about_blog"> 
-                    <div> 1 </div>
+                    <figure className='heart_icon'> <img src= { heart_icon  } alt="" /> </figure>
                     <div> 2 </div>
-                    <div> 3 </div>
+                    <div> julio / 2024 </div>
                 </div>
 
             </section>
