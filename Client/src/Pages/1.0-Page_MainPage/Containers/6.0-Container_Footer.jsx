@@ -10,7 +10,7 @@ import '../../../Sass/Pages/1.0-Page_MainPage/Containers/6.0-SASS-Container_Foot
 
 export const Container_Footer = () => {
 
-    const { instagram_icon } = useContext( Contex );
+    const { instagram_icon,  gitHub_icon, linkedin_icon   } = useContext( Contex );
 
 
     return (
@@ -26,10 +26,12 @@ export const Container_Footer = () => {
 
                 <section className = "box_two"> 
 
+                    <h3>Para consultas adicionales, encuéntranos también en:</h3>
+
                     <figure className='social-icons'>   
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src= { instagram_icon } alt="" />
+                        <img src= { gitHub_icon } alt="" />
+                        <img src= { linkedin_icon } alt="" />
                     </figure>
                 </section>
                 

@@ -1,7 +1,8 @@
 //IMPORTS IMAGES
 import  clickFuturo_logo  from '../../../../assets/clickLogo.png'; //clic futuro logo
 import worldLanguage_icon from '../../../../assets/worldLanguage.png'; //world icon
-import instagram_icon from '../../../../assets/instagram.png'; // instagram icon
+import instagram_icon from '../../../../assets/Icons/instagram.png'; // instagram 
+import linkedin_icon from '../../../../assets/Icons/linkedin.png'; // linkedin icon
 import terminal_icon from '../../../../assets/terminal.png'; // terminal icon
 import gitHub_icon from '../../../../assets/Icons/git.png'; // git hub icon
 import blog_incon from '../../../../assets/blog.png'; //blog icon
@@ -45,7 +46,8 @@ export const useImageCollection = (  ) => {
         //SOCIAL MEDIA
         instagram_icon, //instagram icon
         gitHub_icon, //github icon
-        vite_icon
+        vite_icon,
+        linkedin_icon,
         
-    }
+    } 
 } 
