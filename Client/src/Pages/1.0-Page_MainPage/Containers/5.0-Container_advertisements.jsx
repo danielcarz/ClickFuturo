@@ -19,7 +19,7 @@ export const Container_Adevertisements = () => {
 
        <figure className='container_advertisement'>
 
-            <img src = { advertisemnt_font } alt="font_adversiment" />
+            <img src = "" alt="font_adversiment" />
 
            <ButtonAccess> button_advertisement </ButtonAccess>
        </figure>
