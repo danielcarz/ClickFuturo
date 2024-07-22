@@ -28,10 +28,12 @@ export const Container_Footer = () => {
 
                     <h3>Para consultas adicionales, encuéntranos también en:</h3>
 
-                    <figure className='social-icons'>   
+                    <figure className='social-icons'>
+
                         <img src= { instagram_icon } alt="" />
                         <img src= { gitHub_icon } alt="" />
                         <img src= { linkedin_icon } alt="" />
+                        
                     </figure>
                 </section>
                 
