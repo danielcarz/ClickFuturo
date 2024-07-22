@@ -16,6 +16,8 @@
 
   .navbar_phone{
     
+    width: 100%;;
+
     .box-about_clickfuturo{
       display: flex;
       justify-content: space-between;
@@ -55,20 +57,20 @@
 
     .box-clickfuturo-icons{  
 
-      width: 96%; 
-      height: auto;
+      width: 71%; 
+      height: 100px;
 
       background-color: #474123;
       border-radius: 20px 20px 0 0;
 
       position: fixed;
 
-      top: 90vh; 
+      top: 124vh; 
 
       display: flex;
       
 
-      border: 1px solid rgba(194, 175, 175, 0.521);
+      
 
       .box{ 
         margin: 0 auto;
@@ -76,9 +78,9 @@
 
         
 
-        width: 60px;  
+        width: 100%;  
 
-        border: 1px solid white;
+      
 
 
         img{

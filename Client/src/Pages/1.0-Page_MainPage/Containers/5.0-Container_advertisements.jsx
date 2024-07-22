@@ -21,7 +21,7 @@ export const Container_Adevertisements = () => {
 
             <img src = "" alt="font_adversiment" />
 
-           <ButtonAccess> button_advertisement </ButtonAccess>
+           
        </figure>
 
 
