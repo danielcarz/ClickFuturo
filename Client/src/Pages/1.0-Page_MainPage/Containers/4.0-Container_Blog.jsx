@@ -35,7 +35,7 @@ export const Container_Blog = () => {
 
             </section>
 
-            <section className = "wrapper_blog"> 
+            {/* <section className = "wrapper_blog"> 
 
                 <figure className =" box_one figure_about_logo" >
                     <img src={ vite_font_blog } alt="img_about_logo" /> 
@@ -55,11 +55,11 @@ export const Container_Blog = () => {
                 </div>
 
 
-            </section> 
+            </section>  */}
 
             
-{/* 
-            <section className = "wrapper_blog">
+
+            {/* <section className = "wrapper_blog">
 
                 <figure className =" box_one figure_about_logo" >
                     <img src="" alt="img_about_logo" /> 
@@ -77,9 +77,9 @@ export const Container_Blog = () => {
                     <div> julio / 2024 </div>
                 </div>
 
-            </section> */}
+            </section>  */}
 
-            {/* <section className = "wrapper_blog">
+            {/*  <section className = "wrapper_blog">
                 
                 <figure className =" box_one figure_about_logo" >
                     <img src="" alt="img_about_logo" /> 
@@ -97,7 +97,7 @@ export const Container_Blog = () => {
                     <div> julio / 2024 </div>
                 </div>
 
-            </section> */}
+            </section>  */}
             
         </div>
     )
