@@ -65,7 +65,7 @@
 
       position: fixed;
 
-      top: 124vh; 
+      top: 100vh;  
 
       display: flex;
       
@@ -75,7 +75,7 @@
       .box{ 
         margin: 0 auto;
         padding: 10px;
-
+ 
         
 
         width: 100%;  
@@ -104,14 +104,14 @@
 
     margin-right: 10px;
 
-    border: 1px solid rgb(13, 17, 245);
+    
 
     .box_info{
 
       display: flex;
       justify-content: space-between;
 
-      border: 1px solid rgb(238, 7, 7);
+     
 
       .box_info-media{
 
@@ -130,7 +130,7 @@
 
        
 
-      border: 1px solid green;
+      
 
       .changeLanguage_button{
         
@@ -188,7 +188,6 @@
       width: 10%;
       height: auto;
   
-      border: 1px solid rgb(19, 18, 18);
   
       img{
   
@@ -199,7 +198,7 @@
         min-height: 80px;
         max-height: 100px;
   
-        border: 1px solid rgb(245, 8, 8);
+      
       }
       
     }
@@ -212,14 +211,14 @@
   
       margin-right: 10px;
   
-      border: 1px solid rgb(13, 17, 245);
+
   
       .box_info{
   
         display: flex;
         justify-content: space-between;
   
-        border: 1px solid rgb(238, 7, 7);
+       
   
         .box_info-media{
   
@@ -229,7 +228,7 @@
           display: flex;
           justify-content: space-around;
   
-          border: 1px solid rgb(248, 55, 6);
+         
   
           img{ 
             width: 50px;
@@ -244,7 +243,7 @@
   
          
   
-        border: 1px solid green;
+       
   
         .changeLanguage_button{
           
@@ -309,7 +308,7 @@
       width: 10%;
       height: auto;
   
-      border: 1px solid rgb(19, 18, 18);
+      
   
       img{
   
@@ -320,7 +319,7 @@
         min-height: 80px;
         max-height: 100px;
   
-        border: 1px solid rgb(245, 8, 8);
+        
       }
       
     }
@@ -333,15 +332,14 @@
   
       margin-right: 10px;
   
-      border: 1px solid rgb(13, 17, 245);
+    
   
       .box_info{
   
         display: flex;
         justify-content: space-between;
   
-        border: 1px solid rgb(238, 7, 7);
-  
+      
         .box_info-media{
   
           max-width: 300px;
@@ -350,7 +348,7 @@
           display: flex;
           justify-content: space-around;
   
-          border: 1px solid rgb(248, 55, 6);
+        
   
           img{ 
             width: 50px;
@@ -365,7 +363,7 @@
   
          
   
-        border: 1px solid green;
+        
   
         .changeLanguage_button{
           
@@ -425,7 +423,6 @@
           width: 240px;
           height: 60px;
 
-          border: 1px solid red;
           
 
           .changeLanguage_button{

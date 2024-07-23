@@ -39,12 +39,12 @@ export const Container_Footer = () => {
                 
             </div> 
 
-            <div className = "wrapper_footer_two">
+           {/*  <div className = "wrapper_footer_two">
                 <section className = "box_three">
                     <hr></hr> 
                     <h6>Copy right</h6>
                 </section>
-            </div>
+            </div> */}
 
         </div>
     )

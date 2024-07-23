@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(1, 2fr));
   gap: 10px;
-  border: 1px solid green;
+ 
   
 
   .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
@@ -25,13 +25,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 10px;
-    border: 1px solid black;
+   
    
  
     
   }
 
-  border: 1px solid green;
+ 
   
   
   
@@ -43,6 +43,7 @@
   
 
   width: 100%;
+ 
 
 
   .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
@@ -60,19 +61,21 @@
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 10px;
 
-    border: 1px solid black;
+   
 
     
   }
 
-    border: 1px solid green;
+  
 
 }
 
 @mixin styles_desktop () {
 
+  margin-top: 80px; 
   
 
+  height: 300px; 
 
 
   .box-one_menu_one, .box-two_menu_two, .box-three_menu_three{
@@ -82,19 +85,22 @@
   .box{
    
    
-    max-width: 100%;
-    height: $max-height-Container-Menu; //auto 
+    width: 100%;
+    height: 20px;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-    gap: 170px;
+    
+    .access_content{
 
-    border: 1px solid black;
+      width: 30%;
+      height: 70px;
+
+    } 
+    
 
     
   }
 
-    border: 1px solid green;
+  
 
    
 }
@@ -133,7 +139,7 @@
 
         .access_content{
 
-          width: 600px;
+          
 
           display: flex;
           justify-content: space-around;
@@ -143,7 +149,7 @@
 
           background-color: transparent;
 
-          border: 1px solid red;
+          
 
           .blog_icon{
 

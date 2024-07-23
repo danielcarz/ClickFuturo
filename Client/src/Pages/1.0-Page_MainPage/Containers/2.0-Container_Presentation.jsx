@@ -23,20 +23,8 @@ export const Container_Presentation = () => {
 
                 <img src= { portada } alt="" />
 
-               {/*  <div className = "box-one_title">
-                    
-                    <h1>Titulo de main page</h1>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, inventore?</p>
-
-                </div> */}
-
-                <div className = "box-two_button">
-                    
-                    <ButtonAccess> Clic to access </ButtonAccess>
-
-                </div>
                
+
             </figure>
 
         </div>
