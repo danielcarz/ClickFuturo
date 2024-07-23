@@ -40,18 +40,18 @@
       height: 300px;
 
       display: flex;
-      flex-direction: column;
+      
       justify-content: space-around;
       align-items: top;
 
 
-      border: 1px solid black;
+        
       
       .social-icons{
 
           margin: 0 auto;
 
-          width: 100%;
+          width: 50%;
           height: 50px;
 
           display: flex;
@@ -61,11 +61,11 @@
         img{
 
           width: 30px; 
-          height: 50px;
+          height: 50px; 
 
           margin: 10px;
 
-          border: 1px solid black;
+         
 
         }
       }
@@ -184,7 +184,7 @@
 
     height: 50%;
 
-    border: 1px solid black;
+    
 
     .box_one{
 
@@ -195,25 +195,26 @@
 
       width: 50%;
 
-      border: 1px solid black;
+      display: flex;
+
+     
 
       .social-icons{
 
-        width: 100%;
+        width: 50%;
         height:100px;
  
         display: flex;
         align-items: center;
-        justify-content: right;
+        justify-content: left;
 
-        border: 1px solid black;
-
+ 
         img{
           margin: 10px;
           width: 60px;
           height: 60px;
 
-          border: 1px solid black;
+        
           
         }
       }

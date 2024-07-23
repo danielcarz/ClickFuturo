@@ -14,6 +14,8 @@ import terminal_font from '../../../../assets/terminales.jpg'; // termianl font
 import vite_font_blog from '../../../../assets/blogs_fonts/about_vite.png';
 import advertisemnt_font from '../../../../assets/blogs_fonts/3.png';
 
+
+
  
 
 export const useImageCollection = (  ) => {

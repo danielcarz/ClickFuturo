@@ -24,7 +24,7 @@ export const Container_Footer = () => {
                     <p className='lema'> tu guia sobre programacion y tecnologia</p> 
                 </section>
 
-                <section className = "box_two"> 
+                <section className = "box_two">  
 
                     <h3>Para consultas adicionales, encuéntranos también en:</h3>
 
@@ -35,6 +35,7 @@ export const Container_Footer = () => {
                         <img src= { linkedin_icon } alt="" />
                         
                     </figure>
+                    
                 </section>
                 
             </div> 
