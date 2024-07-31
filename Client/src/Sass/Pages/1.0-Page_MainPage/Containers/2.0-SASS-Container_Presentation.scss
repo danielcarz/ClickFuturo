@@ -9,7 +9,7 @@
 
 @mixin styles_phone () {
 
-  height: 250px;
+    
 
     
 
@@ -20,18 +20,33 @@
     justify-content: center;
     align-items: center;
 
+    position: relative;
+    
     margin: 0;
     height: $max-height-wrapper_presentation; //100%
-   
+    
+    
+    
+    
+      width: 100%;  
+      height: 300px; 
+      content: url('../../../../assets/blogs_fonts/10.png');
 
-  
-
-    img{
-
-      max-width: 100%;
-      min-width: 100%;
-    }
+    
   } 
+
+  .tittle_presentation{
+
+    position: absolute;
+
+    h1{
+
+      text-align: center;
+      font-size: 20px;
+
+      color: white;
+    }
+  }
 
   
 }
@@ -39,52 +54,11 @@
 @mixin styles_tablets () {
   
     
-  height: 400px;
-  margin-top: 20px;
-
-  //background: url('../../../../assets/blogs_fonts/6.png');
-
-  content: url('../../../../assets/blogs_fonts/8.png');  
-
- margin-bottom: 30px;
-  
-
-  .wrapper_presentation{
-
-    width: 100%;
-    height: 500px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    margin: 0;
-    
-   
-
-   
-
-    img{
-
-      width: 100%;
-      height: 400px; 
-    }
-
-  } 
-
-  
-
-}
-
-@mixin styles_desktop () {
-
     height: 400px;
-    margin-top: 20px;
+    margin-top: 20px; 
 
     position: relative;
 
-    //background: url('../../../../assets/blogs_fonts/6.png');
 
     
     margin-bottom: 30px;
@@ -94,10 +68,21 @@
     .tittle_presentation{
       
       position: absolute;
+
+      margin: 0 auto;
       
       color: white;
+
       
-      z-index:10; 
+
+      h1{
+        
+        text-align: center;
+
+        padding: 10px;
+      }
+      
+     
     }
     
     
@@ -125,6 +110,72 @@
       }
 
     } 
+  
+
+}
+
+@mixin styles_desktop () {
+
+  height: 400px;
+  margin-top: 20px;
+
+  position: relative;
+
+  //background: url('../../../../assets/blogs_fonts/6.png');
+
+  
+  margin-bottom: 30px;
+  
+  z-index: 1;
+  
+  .tittle_presentation{
+    
+    position: absolute;
+    top: 50px;
+
+    margin: 0 auto;
+    
+    color: white;
+
+    
+
+    h1{
+      
+      text-align: center;
+      font-size: 30px;
+
+      padding: 10px;
+    }
+    
+   
+  }
+  
+  
+  .wrapper_presentation{
+    
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    
+    content: url('../../../../assets/blogs_fonts/8.png');  
+   
+
+   
+
+    img{
+
+      width: 100%;
+      height: 400px; 
+    }
+
+  } 
+
 
   
    

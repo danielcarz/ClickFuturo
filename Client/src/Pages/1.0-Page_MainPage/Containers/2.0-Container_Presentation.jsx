@@ -19,16 +19,12 @@ export const Container_Presentation = () => {
 
         <div className = "container_presentation">
             
-            <figure className = "wrapper_presentation">
-
-
-
-
-
-            </figure> 
+            <figure className = "wrapper_presentation"> </figure> 
 
             <section className='tittle_presentation' >
+
                 <h1> Resuelve tus dudas tecnológicas: Encuentra respuestas a tus preguntas sobre tecnología, programación e informática en nuestras detalladas tutorías. </h1>
+            
             </section>
 
         </div>
