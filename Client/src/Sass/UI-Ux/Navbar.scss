@@ -170,17 +170,23 @@
 
 @mixin styles_tablets () {
 
+  font-size: 20px;  
+
+  height: auto;
+
   .navbar_phone{
     display: none;
   }
-
+  
+  
   .navbar_tablets_desktop{
 
     width: 100%;
+    height: auto;
 
     display: flex;
     justify-content: space-between;
-
+    
     .wrapper_logo{
 
       margin-left: 10px;
@@ -188,6 +194,7 @@
       width: 10%;
       height: auto;
   
+      
   
       img{
   
@@ -198,7 +205,7 @@
         min-height: 80px;
         max-height: 100px;
   
-      
+        
       }
       
     }
@@ -211,15 +218,14 @@
   
       margin-right: 10px;
   
-
+    
   
       .box_info{
   
         display: flex;
         justify-content: space-between;
   
-       
-  
+      
         .box_info-media{
   
           max-width: 300px;
@@ -228,7 +234,7 @@
           display: flex;
           justify-content: space-around;
   
-         
+        
   
           img{ 
             width: 50px;
@@ -243,7 +249,7 @@
   
          
   
-       
+        
   
         .changeLanguage_button{
           
@@ -252,15 +258,17 @@
           align-items: center;
   
           background-color: transparent;
+
+          
           
   
-          height: 50px;
+          height: auto;
           width: 190px;
           
           .buttonaccess_box_worldlanguage{
   
-            margin-top: 10px;
-  
+            margin-bottom: 20px;
+   
             width: 70px; 
             height: 40px;
   
@@ -280,7 +288,6 @@
     }
 
   }
-
  
   
  
@@ -288,6 +295,10 @@
 }
 
 @mixin styles_desktop () {
+
+  font-size: 25px;
+
+  height: auto;
 
   .navbar_phone{
     display: none;
@@ -297,6 +308,7 @@
   .navbar_tablets_desktop{
 
     width: 100%;
+    height: auto;
 
     display: flex;
     justify-content: space-between;
@@ -372,17 +384,24 @@
           align-items: center;
   
           background-color: transparent;
+
+          font-size: 18px;
           
   
-          height: 50px;
-          width: 190px;
+          height: auto;
+          width: 290px;
           
           .buttonaccess_box_worldlanguage{
   
-            margin-top: 10px;
-  
-            width: 70px; 
-            height: 40px;
+            margin-bottom: 20px;
+   
+            width: 50px; 
+            height: 25px;
+
+            h6{
+
+              font-size: 18px;
+            }
   
             
   

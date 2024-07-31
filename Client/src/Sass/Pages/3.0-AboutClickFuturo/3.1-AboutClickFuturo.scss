@@ -1,45 +1,55 @@
 //VARIABLES (it musb be in the first position)
-@use './Mixins/Variables.scss' as *;
+@use '../../Mixins/Variables.scss' as * ;
 
 //MEDIA
-@import './Mixins/MediaQueries.scss';
+@import '../../Mixins/MediaQueries.scss';
 
-@import 'bootstrap/scss/bootstrap';
-
+//@import 'bootstrap/scss/bootstrap';
 
 
 @mixin styles_phone () {
-  
+
+  height: 250px;
+
+    
+
 
   
 }
 
 @mixin styles_tablets () {
+  
+    
+  height: 250px;
+
+    
+
  
- 
+
+  
+
 }
 
 @mixin styles_desktop () {
 
-  
+    height: 200px;
+    margin-top: 100px;
 
+
+    height: 100vh;
+
+   
+
+  
    
 }
 
 
 
+ 
+.container_about_click_futuro{
 
-body{
-
-    
-        margin: 0;
-        padding: 0;
-        font-family: 'Arial', sans-serif; 
-
-       
-        /* Others globals styles */
-      
-
+        
      
   
 

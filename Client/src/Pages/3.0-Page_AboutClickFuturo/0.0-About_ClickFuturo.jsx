@@ -4,7 +4,11 @@ import React, { useContext } from "react"
 import { Contex } from "../Components/Hooks/Contex/CreateContex"
 
 //COMPONENTS
-import { Navbar } from "../Components/Ui-Ux";
+import { Navbar, Layout } from "../Components/Ui-Ux";
+
+//STYLES
+import '../../Sass/Pages/3.0-AboutClickFuturo/3.1-AboutClickFuturo.scss';
+
 
 export const About_ClickFuturo =() => {
 
@@ -12,11 +16,14 @@ export const About_ClickFuturo =() => {
 
     return(
 
+        <Layout>
 
-        <div> 
+     
+        
             <Navbar></Navbar>
-            <section> texto acerca de click futuro </section>    
-        </div>
+            <section className="container_about_click_futuro"> texto acerca de click futuro </section>
+
+        </Layout>   
 
 
     )

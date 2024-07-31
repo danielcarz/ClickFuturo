@@ -63,7 +63,7 @@ export const Navbar = () => {
 
             <div className='box_language'>
 
-            <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
+                <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
 
                     <figure className='buttonaccess_box_worldlanguage' >
                         
@@ -71,7 +71,7 @@ export const Navbar = () => {
                         
                     </figure>    
 
-                    Cambiar idioma
+                    <h6> Cambiar idioma </h6>
 
                     { isTrue && (
                         
@@ -81,7 +81,7 @@ export const Navbar = () => {
                             
                         </div>
                     ) }
-            </ButtonAccess>
+                </ButtonAccess>
 
             </div>
 
