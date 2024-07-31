@@ -38,104 +38,104 @@ export const Navbar = () => {
     return ( 
         <nav className='navbar' >
 
-        <div className='navbar_tablets_desktop'>
+            <div className='navbar_tablets_desktop'>
 
-            <figure className='wrapper_logo'>
-
-                <img src= { clickFuturo_logo }  alt="logo" />
-
-            </figure>
-
-            <section className='wrapper_info'>
-
-            <ul className='box_info'>
-
-                <li  onClick={ goToAboutClickfuturo } className = "about_clic_futuro" >Aerca de clic futuro</li>
-                <li onClick={ goToBlogLibrary }>Blog informatico</li>
-
-                <figure className='box_info-media'>
-
-                    <img src= { instagram_icon } alt="instagram" />
-                    <img src = { gitHub_icon } alt="git hub" />
-
-                </figure>
-            </ul>
-
-            <div className='box_language'>
-
-                <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
-
-                    <figure className='buttonaccess_box_worldlanguage' >
-                        
-                        <img   src= { worldLanguage_icon } alt="" />
-                        
-                    </figure>    
-
-                    <h6> Cambiar idioma </h6>
-
-                    { isTrue && (
-                        
-                        <div className='dropdown-menu' >
-                            <div className="dropdown-item">English</div>
-                            <div className="dropdown-item">Español</div>
-                            
-                        </div>
-                    ) }
-                </ButtonAccess>
-
-            </div>
-
-
-            </section>
-
-        </div>
-    
-
-        <div className='navbar_phone'>
-
-            <div className='box-about_clickfuturo' >
-
-                <figure className='wrapper_logo'> 
+                <figure className='wrapper_logo'>
 
                     <img src= { clickFuturo_logo }  alt="logo" />
 
                 </figure>
 
-                <section className='wrapper_name' >
-                    <h1> Click Futuro </h1>
-                    <h3 className='main-message'>tu guia sobre tecnologia y programacion</h3>
+                <section className='wrapper_info'>
+
+                    <ul className='box_info'>
+
+                        <li  onClick={ goToAboutClickfuturo } className = "about_clic_futuro" >Aerca de clic futuro</li>
+                        <li onClick={ goToBlogLibrary }>Blog informatico</li>
+
+                        <figure className='box_info-media'>
+
+                            <img src= { instagram_icon } alt="instagram" />
+                            <img src = { gitHub_icon } alt="git hub" />
+
+                        </figure>
+                    </ul>
+
+                    <div className='box_language'>
+
+                        <ButtonAccess onClick={ displayingLanguageOptions } className= "changeLanguage_button"> 
+
+                            <figure className='buttonaccess_box_worldlanguage' >
+                                
+                                <img   src= { worldLanguage_icon } alt="" />
+                                
+                            </figure>    
+
+                            <h6> Cambiar idioma </h6>
+
+                            { isTrue && (
+                                
+                                <div className='dropdown-menu' >
+                                    <div className="dropdown-item">English</div>
+                                    <div className="dropdown-item">Español</div>
+                                    
+                                </div>
+                            ) }
+                        </ButtonAccess>
+
+                    </div>
+
+
                 </section>
 
-
             </div>
+    
 
-            <div className='box-clickfuturo-icons'>
+            <div className='navbar_phone'>
+
+                <div className='box-about_clickfuturo' >
+
+                    <figure className='wrapper_logo'> 
+
+                        <img src= { clickFuturo_logo }  alt="logo" />
+
+                    </figure>
+
+                    <section className='wrapper_name' >
+                        <h1> Click Futuro </h1>
+                        <h3 className='main-message'>tu guia sobre tecnologia y programacion</h3>
+                    </section>
+
+
+                </div>
+
+                <div className='box-clickfuturo-icons'>
+                    
+                        
+                        <figure className='box navbar-icons'>
+                            <img src= { clickFuturo_logo } alt="" />
+                            <h6>acerca de click futuro</h6>
+                        </figure>
+
+                        <figure className='box navbar-icons'>
+                            <img src= { blog_incon } alt="" />
+                            <h6>Blog informatico</h6>
+                        </figure>
+
+                        <figure className='box navbar-icons'>
+                            <img src= { clickFuturo_logo } alt="" />
+                            <h6>acerca de click futuro</h6>
+                        </figure>
+                        
+                        
                 
-                    
-                    <figure className='box navbar-icons'>
-                        <img src= { clickFuturo_logo } alt="" />
-                        <h6>acerca de click futuro</h6>
-                    </figure>
-
-                    <figure className='box navbar-icons'>
-                        <img src= { blog_incon } alt="" />
-                        <h6>Blog informatico</h6>
-                    </figure>
-
-                    <figure className='box navbar-icons'>
-                        <img src= { clickFuturo_logo } alt="" />
-                        <h6>acerca de click futuro</h6>
-                    </figure>
-                    
-                    
-               
-            </div>
+                </div>
+                
             
-        
-        </div>
+            </div>
 
                 
 
-    </nav>
+        </nav>
     )
 }

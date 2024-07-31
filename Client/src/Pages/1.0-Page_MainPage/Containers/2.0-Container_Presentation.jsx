@@ -21,11 +21,15 @@ export const Container_Presentation = () => {
             
             <figure className = "wrapper_presentation">
 
-                <img src= " " alt="" /> 
 
-               
 
-            </figure>
+
+
+            </figure> 
+
+            <section className='tittle_presentation' >
+                <h1> Resuelve tus dudas tecnológicas: Encuentra respuestas a tus preguntas sobre tecnología, programación e informática en nuestras detalladas tutorías. </h1>
+            </section>
 
         </div>
     )
