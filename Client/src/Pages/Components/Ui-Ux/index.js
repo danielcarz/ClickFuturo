@@ -7,4 +7,7 @@ export * from './Layout.jsx';
 export * from './Navbar.jsx';
 
 //button access
-export * from './Button_access.jsx'; 
+export * from './Button_access.jsx';
+
+//personal presentation component
+export * from './Presentation.jsx';

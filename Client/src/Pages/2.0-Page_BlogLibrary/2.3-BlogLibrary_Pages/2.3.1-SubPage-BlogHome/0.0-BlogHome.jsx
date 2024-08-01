@@ -14,11 +14,11 @@ export const BlogHome_Container = ( { children } ) => {
 
         <Layout> 
  
-            <div className="container_blogHome">
+            <section className="container_blogHome">
     
                 { children }
     
-            </div>
+            </section>
 
         </Layout>
         )
