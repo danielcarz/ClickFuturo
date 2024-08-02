@@ -22,7 +22,9 @@
 }
 
 @mixin styles_desktop () {
-  
+
+    width: 100%;
+    height: 50vh;
  
 
    
@@ -35,6 +37,8 @@
 
         //CONFIGURATION BY DEFAULT
        width: 100%;
+
+       content: url('../../../../assets/blogs_fonts/11.png');
 
        
   
