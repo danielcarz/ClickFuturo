@@ -11,9 +11,9 @@ export const BlogLibrary_SubRoutesHandler = () => {
 
         <Routes>
 
-            <Route path="bloghome/intrototerminal" element = { <BlogHome_introToInformatics_container> </BlogHome_introToInformatics_container> }></Route>
+            <Route path="bloghome/introduction_to_informatics" element = { <BlogHome_introToInformatics_container> </BlogHome_introToInformatics_container> }></Route>
             
 
-        </Routes>
+        </Routes> 
     )
 } 

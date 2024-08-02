@@ -1,0 +1,55 @@
+//VARIABLES (it musb be in the first position)
+@use '../../../Mixins//Variables.scss' as * ;
+
+//MEDIA
+@import '../../../Mixins/MediaQueries.scss';
+
+//@import 'bootstrap/scss/bootstrap';
+
+
+@mixin styles_phone () {
+    
+  
+  
+}
+
+@mixin styles_tablets () {
+  
+  
+  
+   
+
+}
+
+@mixin styles_desktop () {
+  
+ 
+
+   
+}
+
+
+
+ 
+.componentContainer_introToinformatic{
+
+        //CONFIGURATION BY DEFAULT
+       width: 100%;
+
+       display: flex;
+       flex-direction: column;
+  
+
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}
