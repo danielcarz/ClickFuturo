@@ -1,8 +1,8 @@
 
 //SASS
-import '../../../../Sass/Pages/2.0-SASS_BlogLibrary_Pages/2.1-SASS_BlogHome/2.0-SASS_BlogHome_Personal_Presentation.scss';
+import '../../../../Sass/Pages/2.0-SASS_BlogLibrary_Pages/2.1-SASS_BlogHome/2.0-SASS_BlogHome_Font.scss';
 
-export const BlogHome_introToInformatics_personal_presentation = (  ) => {
+export const BlogHome_introToInformatics_font = (  ) => {
 
 
     return(

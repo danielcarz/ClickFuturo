@@ -1,5 +1,5 @@
 //VARIABLES (it musb be in the first position)
-@use '../../../Mixins/Variables.scss' as * ;
+@use '../../../Mixins//Variables.scss' as * ;
 
 //MEDIA
 @import '../../../Mixins/MediaQueries.scss';
@@ -23,57 +23,28 @@
 
 @mixin styles_desktop () {
 
-    display: flex;
-    justify-content: space-between;
+   
+ 
 
-    padding: 10px;
-
-    height: 100vh;
-
-    .wrapper_tabletofcontents{
-
-        min-width: 30%;
-
-
-        border: 1px solid black;
-    }
-
-    .wrapper_content{
-
-        
-        min-width: 65%;
-
-
-        border: 1px solid black;
-    }
-  
    
 }
 
 
 
  
-.container_aboutterminal{ 
+.wrapper_aboutProgrammer{
 
         //CONFIGURATION BY DEFAULT
-        width: 100%;
-        
-
-        
-
-        
-        
-       
+       width: 30%;
+  
+       display: flex;
 
        
 
-        
+       border: 1px solid black;
 
-        
-   
 
        
-     
   
 
   @include media-query($media_phone){
