@@ -6,13 +6,18 @@ export const BlogHome_introToInformatics_personal_presentation = (  ) => {
 
 
     return(
- 
-        <figure className='wrapper_informatics_font'>
 
-            <h1>title about informatics</h1>
-            <img src="" alt="informatics_font" />
-            
-        </figure>
+
+        <section className='wrapper_personal_presentation_font'>
+
+
+            <figure className='box_one_informatics_font' ></figure>
+
+            <h1 className='tittle_introToInformatics'>  La Informática desde Cero: Todo lo que Necesitas Saber para Empezar </h1>
+
+
+        </section>
+ 
         
     )
 
