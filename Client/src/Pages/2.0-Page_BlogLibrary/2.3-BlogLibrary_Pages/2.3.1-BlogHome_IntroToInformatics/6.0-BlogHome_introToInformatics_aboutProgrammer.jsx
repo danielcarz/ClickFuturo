@@ -1,3 +1,4 @@
+import React from "react"
 
 export const BlogHome_introToInformatics_aboutProgrammer = (  ) => {
 
@@ -9,4 +10,4 @@ export const BlogHome_introToInformatics_aboutProgrammer = (  ) => {
     )
 
 
-}
+}  

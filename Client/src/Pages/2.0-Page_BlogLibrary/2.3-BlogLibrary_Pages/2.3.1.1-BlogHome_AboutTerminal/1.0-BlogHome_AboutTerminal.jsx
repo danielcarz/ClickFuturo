@@ -4,13 +4,13 @@
 import '../../../../../Sass/Pages/2.0-BlogLibrary/2.1-BlogHome/2.1.2-Blog_AboutTerminal.scss';
 
 //blog home
-import { BlogHome_Container } from '../0.0-BlogHome.jsx';
+import { BlogHome_Container } from '../0.0-BlogLibrary_BlogHome_Container.jsx';
 
 export const Blog_Aboutterminal = () => {
 
 
     return(
-
+ 
         <BlogHome_Container> 
             
             <div className='container_aboutterminal'>

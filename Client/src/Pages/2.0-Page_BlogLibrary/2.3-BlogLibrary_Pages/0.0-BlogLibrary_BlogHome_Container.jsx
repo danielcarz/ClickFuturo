@@ -7,7 +7,7 @@ import { Layout } from '../../../Components/Ui-Ux/Layout';
 
 
 
-export const BlogHome_Container = ( { children } ) => {
+export const BlogLibrary_BlogHome_Container = ( { children } ) => {
 
 
     return(
