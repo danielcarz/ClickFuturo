@@ -17,8 +17,8 @@ import '../../../../Sass/Pages/2.0-SASS_BlogLibrary_Pages/2.1-SASS_BlogHome/1.0-
 export const BlogHome_introToInformatics_container = () => {
 
   
-    return(
-        
+    return( 
+         
         <BlogLibrary_BlogHome_Container>
 
             <section className='componentContainer_introToinformatic' > 
