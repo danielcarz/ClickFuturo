@@ -23,6 +23,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
 
                 </p>
+                
                 {/* ABOUT SOFTWARE AND DEVELOPMENT */}
                 <section className='BLOCK_CONTAINER introToInformatics_block-one' >
 

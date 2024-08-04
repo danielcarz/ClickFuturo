@@ -32,31 +32,46 @@
 
       display: flex;
 
+      height: auto;
+
+      border: 1px solid red;
+
       .FRAME_CONTAINER_ONE{
         width: 70%;
   
         display: flex;
         flex-direction: column;
+
+       
+      }
+
+      .FRAME_CONTAINER_TWO{
+
+        border: 1px solid black;
+
+        .image_one{
+
+          margin-top: 60px;
+        }
+
       }
   
       .introToInformatics_software-development-programming_IMAGES{
 
-        display: flex;
-        justify-content: space-between;
+      
 
         padding: 10px;
-        
-        width: 50%;
-  
-        border: 1px solid black;
 
-         
-      
         
         .software_two{
 
           width: 600px;
           height: 300px;
+
+          margin-top: 60px;
+
+          
+
           content: url('../../../../assets/blogs_fonts/IntroToinformatics/desarrollo_software.jpg');
           
          
@@ -177,6 +192,9 @@
 .wrapper_introToInformatics_blog{
 
         //CONFIGURATION BY DEFAULT
+        font-size: 25px;
+
+
         .BOX_CONTAINER{
 
             .BLOCK_CONTAINER{
@@ -192,7 +210,7 @@
                 
                 width: 50%;
           
-                border: 1px solid black
+                
               }
         
             }
