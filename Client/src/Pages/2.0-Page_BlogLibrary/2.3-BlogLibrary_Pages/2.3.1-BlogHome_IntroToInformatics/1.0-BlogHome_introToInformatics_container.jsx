@@ -3,9 +3,9 @@ import { BlogLibrary_BlogHome_Container } from '../0.0-BlogLibrary_BlogHome_Cont
 
 //components of intro to informatics
 import { BlogHome_introToInformatics_font}  from './2.0-BlogHome_introToInformatics_Font.jsx';
-import { BlogHome_introToInformatics_comments } from './3.0-BlogHome_introToInformatics_comment.jsx';
+import { BlogHome_introToInformatics_blog } from './3.0-BlogHome_introToInformatics_blogt.jsx';
 import { BlogHome_introToInformatics_footer } from './4.0-BlogHome_introToInformatics_footer.jsx'; 
-import { BlogHome_introToInformatics_blog } from './5.0-BlogHome_introToInformatics_blog.jsx';
+import { BlogHome_introToInformatics_comments } from './5.0-BlogHome_introToInformatics_comments.jsx';
 import { BlogHome_introToInformatics_aboutProgrammer }  from './6.0-BlogHome_introToInformatics_aboutProgrammer.jsx';
 import { BlogHome_introToInformatics_Navbar } from './7.0-BlogHome_introToInformatics_navbar.jsx';
 
@@ -41,7 +41,7 @@ export const BlogHome_introToInformatics_container = () => {
 
             <section className='componentContainer_introToinformatic'>
 
-                <BlogHome_introToInformatics_blog></BlogHome_introToInformatics_blog>
+                <BlogHome_introToInformatics_blog></BlogHome_introToInformatics_blog> 
 
             </section>
 
