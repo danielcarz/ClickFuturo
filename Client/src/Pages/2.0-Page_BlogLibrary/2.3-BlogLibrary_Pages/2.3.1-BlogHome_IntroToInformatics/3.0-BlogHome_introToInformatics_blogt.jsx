@@ -23,7 +23,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
 
                 </p>
-                
+
                 {/* ABOUT SOFTWARE AND DEVELOPMENT */}
                 <section className='BLOCK_CONTAINER introToInformatics_block-one' >
 
@@ -39,6 +39,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
                             desarrolladores escribir software:
 
                             <ul className="programming_softwareDevelopment_list" >
+
                                 <li>
                                     Lenguajes de Programación: Herramientas para escribir software, como Java, Python y C++. 
                                     Cada lenguaje tiene sus propias características y usos. Por ejemplo, Python es conocido 
@@ -48,8 +49,8 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                                 <li>
                                     Desarrollo de Aplicaciones: Se refiere a la creación de aplicaciones móviles, de 
-                                    escritorio y web. Esto implica diseñar la interfaz de usuario, desarrollar la lógica 
-                                    del negocio y asegurarse de que la aplicación funcione correctamente en diferentes 
+                                    escritorio y web. Esto implica diseñar la interfaz de usuario, <u> desarrollar la lógica 
+                                    del negocio  </u>  y asegurarse de que la aplicación funcione correctamente en diferentes 
                                     dispositivos.
                                 </li>
 
@@ -99,7 +100,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                             <li>
                                 Seguridad de Redes: Se refiere a las medidas tomadas para proteger la información y prevenir 
-                                accesos no autorizados. Esto incluye el uso de firewalls, encriptación y otras tecnologías de
+                                accesos no autorizados. Esto incluye el uso de <u> firewalls  </u> , encriptación y otras tecnologías de
                                 seguridad.
                             </li>
                         </ul>
@@ -127,7 +128,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
                         <ul>
                             
                             <li>
-                                Sistemas de Gestión de Bases de Datos (DBMS): Software que facilita la creación,
+                                Sistemas de Gestión de Bases de Datos <u> (DBMS) </u> : Software que facilita la creación,
                                 actualización y administración de bases de datos. Ejemplos incluyen MySQL, PostgreSQL y 
                                 Oracle.
                             </li>
@@ -139,7 +140,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                             <li>
                                 Big Data: Se refiere al manejo y análisis de grandes volúmenes de datos que no pueden ser 
-                                gestionados con métodos tradicionales debido a su tamaño, velocidad y complejidad.
+                                gestionados con <u> métodos tradicionales </u> debido a su tamaño, velocidad y complejidad.
                             </li>
 
                         </ul>
@@ -276,7 +277,7 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                         <ul>
                             <li>
-                                Ciberseguridad: Protección contra ataques cibernéticos que pueden comprometer la 
+                                Ciberseguridad: Protección contra  <u> ataques cibernéticos  </u>  que pueden comprometer la 
                                 información y los sistemas.
                             </li>
 
