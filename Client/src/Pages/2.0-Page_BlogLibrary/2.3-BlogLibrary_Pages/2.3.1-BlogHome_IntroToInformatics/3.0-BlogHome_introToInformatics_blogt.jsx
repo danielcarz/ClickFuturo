@@ -41,21 +41,21 @@ export const BlogHome_introToInformatics_blog = (  ) => {
                             <ul className="programming_softwareDevelopment_list" >
 
                                 <li>
-                                    Lenguajes de Programación: Herramientas para escribir software, como Java, Python y C++. 
+                                    <b> Lenguajes de Programación: </b>  Herramientas para escribir software, como Java, Python y C++. 
                                     Cada lenguaje tiene sus propias características y usos. Por ejemplo, Python es conocido 
                                     por su simplicidad y versatilidad, mientras que Java es apreciado por su portabilidad y
                                     robustez.
                                 </li>
 
                                 <li>
-                                    Desarrollo de Aplicaciones: Se refiere a la creación de aplicaciones móviles, de 
+                                    <b>  Desarrollo de Aplicaciones: </b> Se refiere a la creación de aplicaciones móviles, de 
                                     escritorio y web. Esto implica diseñar la interfaz de usuario, <u> desarrollar la lógica 
                                     del negocio  </u>  y asegurarse de que la aplicación funcione correctamente en diferentes 
                                     dispositivos.
                                 </li>
 
                                 <li>
-                                    Metodologías de Desarrollo: Enfoques para organizar y gestionar el desarrollo de software,
+                                    <b> Metodologías de Desarrollo:  </b>   Enfoques para organizar y gestionar el desarrollo de software,
                                     como Scrum y Agile. Estas metodologías ayudan a los equipos a trabajar de manera más 
                                     eficiente y a responder rápidamente a los cambios.
                                 </li>
@@ -88,18 +88,18 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                         <ul>
                             <li>
-                                Redes de Computadoras: Conectan dispositivos como computadoras, impresoras y otros periféricos
+                                <b> Redes de Computadoras: </b>  Conectan dispositivos como computadoras, impresoras y otros periféricos
                                 para que puedan comunicarse entre sí. Las redes pueden ser locales (LAN) o abarcar áreas más 
                                 grandes (WAN).
                             </li>
 
                             <li>
-                                Internet y Protocolo TCP/IP: El Internet es una red global de computadoras interconectadas, y 
+                                <b> Internet y Protocolo TCP/IP:  </b>   El Internet es una red global de computadoras interconectadas, y 
                                 el protocolo TCP/IP es el conjunto de reglas que permite la comunicación a través de esta red.
                             </li>
 
                             <li>
-                                Seguridad de Redes: Se refiere a las medidas tomadas para proteger la información y prevenir 
+                                <b> Seguridad de Redes:  </b>  Se refiere a las medidas tomadas para proteger la información y prevenir 
                                 accesos no autorizados. Esto incluye el uso de <u> firewalls  </u> , encriptación y otras tecnologías de
                                 seguridad.
                             </li>
@@ -128,18 +128,18 @@ export const BlogHome_introToInformatics_blog = (  ) => {
                         <ul>
                             
                             <li>
-                                Sistemas de Gestión de Bases de Datos <u> (DBMS) </u> : Software que facilita la creación,
+                                <b> Sistemas de Gestión de Bases de Datos </b> <u> (DBMS) </u> : Software que facilita la creación,
                                 actualización y administración de bases de datos. Ejemplos incluyen MySQL, PostgreSQL y 
                                 Oracle.
                             </li>
 
                             <li>
-                                Modelado de Datos: El proceso de diseñar estructuras de datos para almacenamiento eficiente.
+                                <b> Modelado de Datos:  </b>  El proceso de diseñar estructuras de datos para almacenamiento eficiente.
                                 Esto incluye definir cómo se organizarán y accederán los datos.
                             </li>
 
                             <li>
-                                Big Data: Se refiere al manejo y análisis de grandes volúmenes de datos que no pueden ser 
+                                <b> Big Data: </b>  Se refiere al manejo y análisis de grandes volúmenes de datos que no pueden ser 
                                 gestionados con <u> métodos tradicionales </u> debido a su tamaño, velocidad y complejidad.
                             </li>
 
@@ -169,18 +169,18 @@ export const BlogHome_introToInformatics_blog = (  ) => {
                         <ul>
 
                             <li>
-                                Algoritmos de IA: Técnicas que permiten a las máquinas realizar tareas que normalmente
+                                <b> Algoritmos de IA:  </b>  Técnicas que permiten a las máquinas realizar tareas que normalmente
                                 requieren inteligencia humana, como reconocimiento de voz y toma de decisiones.
                             </li>
 
                             <li>
-                                Redes Neuronales: Modelos inspirados en el cerebro humano para el aprendizaje automático. 
+                                <b>  Redes Neuronales: </b> Modelos inspirados en el cerebro humano para el aprendizaje automático. 
                                 Se utilizan en aplicaciones como el reconocimiento de imágenes y el procesamiento del lenguaje 
                                 natural.
                             </li>
 
                             <li>
-                                Procesamiento de Lenguaje Natural (NLP): Permite la interacción entre computadoras y lenguaje 
+                                <b> Procesamiento de Lenguaje Natural (NLP): </b>  Permite la interacción entre computadoras y lenguaje 
                                 humano, facilitando tareas como la traducción automática y los asistentes virtuales.
                             </li>
                         </ul>
@@ -207,17 +207,17 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                         <ul>
                             <li>
-                                Análisis de Datos: El proceso de examinar, limpiar y modelar datos para obtener información
+                                <b> Análisis de Datos: </b>  El proceso de examinar, limpiar y modelar datos para obtener información
                                 valiosa.
                             </li>
 
                             <li> 
-                                Visualización de Datos: La representación gráfica de datos para facilitar su interpretación y 
+                                <b> Visualización de Datos: </b>  La representación gráfica de datos para facilitar su interpretación y 
                                 comprensión. Herramientas como gráficos y diagramas ayudan a visualizar patrones y tendencias. 
                             </li>
                             
                             <li>
-                                Minería de Datos: La exploración de grandes conjuntos de datos para descubrir patrones
+                                <b> Minería de Datos:  </b>  La exploración de grandes conjuntos de datos para descubrir patrones
                                 ocultos y relaciones significativas.
                             </li>
 
@@ -245,12 +245,12 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                         <ul>
                             <li>
-                                Funciones de los Sistemas Operativos: Incluyen la gestión de recursos de hardware,
+                                <b> Funciones de los Sistemas Operativos: </b>  Incluyen la gestión de recursos de hardware,
                                 la ejecución de aplicaciones y la provisión de una interfaz de usuario.
                             </li>
 
                             <li>
-                                Tipos de Sistemas Operativos: Ejemplos incluyen Windows, macOS, Linux y Unix. Cada uno 
+                                <b> Tipos de Sistemas Operativos: </b>  Ejemplos incluyen Windows, macOS, Linux y Unix. Cada uno 
                                 tiene sus propias características y usos en diferentes entornos.
                             </li>
                         </ul>
@@ -277,18 +277,18 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                         <ul>
                             <li>
-                                Ciberseguridad: Protección contra  <u> ataques cibernéticos  </u>  que pueden comprometer la 
+                                <b> Ciberseguridad:  </b>  Protección contra  <u> ataques cibernéticos  </u>  que pueden comprometer la 
                                 información y los sistemas.
                             </li>
 
                             <li>
-                                Criptografía: Técnicas para asegurar la información mediante el cifrado, asegurando que 
+                                <b> Criptografía: </b>  Técnicas para asegurar la información mediante el cifrado, asegurando que 
                                 solo las personas autorizadas puedan acceder a los datos.
 
                             </li>
 
                             <li>
-                                Gestión de Riesgos: Evaluación y mitigación de riesgos relacionados con la seguridad de la
+                                <b> Gestión de Riesgos: </b>  Evaluación y mitigación de riesgos relacionados con la seguridad de la
                                 información. Esto incluye identificar posibles amenazas y tomar medidas para minimizarlas.
                             </li>
 
@@ -319,12 +319,12 @@ export const BlogHome_introToInformatics_blog = (  ) => {
 
                         <ul>
                             <li>
-                                Diseño y Construcción de Robots: El proceso de crear robots que puedan llevar a cabo tareas
+                                <b> Diseño y Construcción de Robots: </b>  El proceso de crear robots que puedan llevar a cabo tareas
                                 específicas, desde ensamblar productos hasta explorar planetas.
                             </li>
 
                             <li>
-                                Control y Automatización: El uso de algoritmos y sensores para permitir que los robots
+                                <b> Control y Automatización: </b>  El uso de algoritmos y sensores para permitir que los robots
                                 funcionen de manera autónoma, ajustándose a su entorno y completando tareas sin intervención
                                 humana.
                             </li>

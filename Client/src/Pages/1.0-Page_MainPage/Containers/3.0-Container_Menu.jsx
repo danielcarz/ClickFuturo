@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 
+//CONTEXT
 import { Contex } from '../../Components/Hooks/Contex/CreateContex.jsx';
 
 //UI-UX COMPONENTS
@@ -10,9 +11,9 @@ import '../../../Sass/Pages/1.0-Page_MainPage/Containers/3.0-SASS-Container_Menu
 
 export const  Container_Menu = () => {
 
-    const { terminal_icon, vite_icon  } = useContext( Contex );
-
-    return(
+    const { informatics_icon, goToAboutIntroToInformatic  } = useContext( Contex );
+ 
+    return( 
  
         <div className ="container_menu">
 
@@ -20,11 +21,11 @@ export const  Container_Menu = () => {
                 <ButtonAccess  className= "access_content"> <figure className='blog_icon' > <img src= { terminal_icon } alt="logo_terminal" /> </figure> <h5>Acerca de la terminal</h5> </ButtonAccess>
                 <ButtonAccess className= "access_content">  <figure className='blog_icon'> <img src="" alt="logo_terminal" /> </figure> </ButtonAccess> 
                
-            
+             
             </div> */}
 
             <div className = "box box-two_menu_two"> 
-                <ButtonAccess className= "access_content">  <figure className='blog_icon'> <img src= { vite_icon } alt="logo_terminal" /> </figure> <h5>Acerca de vite</h5> </ButtonAccess> 
+                <ButtonAccess className= "access_content" onClick={ goToAboutIntroToInformatic } >  <figure className='blog_icon'> <img src= { informatics_icon } alt="logo_terminal" /> </figure> <h5>informatica</h5> </ButtonAccess> 
                
             
             </div>

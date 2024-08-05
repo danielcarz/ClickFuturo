@@ -15,9 +15,9 @@ export const useNavigateHandler = () => {
         navigate('/bloglibrary/bloghome');
     }
 
-    const goToAboutTerminal = () => {
+    const goToAboutIntroToInformatic = () => {
 
-        navigate('/bloglibrary/bloghome/aboutterminal');
+        navigate('/bloglibrary/bloghome/introduction_to_informatics');
     }
 
     const goToAboutClickfuturo = () => {
@@ -34,7 +34,7 @@ export const useNavigateHandler = () => {
         goToHomelibrary,
 
         //go to about terminal
-        goToAboutTerminal,
+        goToAboutIntroToInformatic,
 
         //go to about click futuro
         goToAboutClickfuturo, 

@@ -94,8 +94,28 @@
     
     .access_content{
 
-      width: 30%;
+      width: 250px;
       height: 70px;
+
+      .blog_icon{
+
+        display: flex;
+        justify-content: space-around;
+
+        width: 10px;
+        height: 20px;
+
+
+        img{
+
+          
+
+          width: 50px;
+          height: 50px;
+
+          
+        }
+      }
 
     } 
     
@@ -131,8 +151,6 @@
         
 
         
-
-        
         
         /* Others globals styles */
         
@@ -152,18 +170,7 @@
 
           background-color: transparent;
 
-          
-
-          .blog_icon{
-
-            width: 50px;
-
-
-            img{
-
-              width: 100%;
-            }
-          }
+     
         }
 
        

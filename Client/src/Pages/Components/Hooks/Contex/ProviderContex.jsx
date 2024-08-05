@@ -15,10 +15,10 @@ export const ContexProvider = ( { children } ) => {
     const { toggle, isTrue } = useBoolean();
     
     //use navigate hook
-    const { goToBlogLibrary, goToHomelibrary, goToAboutTerminal, goToAboutClickfuturo } = useNavigateHandler();
+    const { goToBlogLibrary, goToHomelibrary, goToAboutIntroToInformatic, goToAboutClickfuturo } = useNavigateHandler();
 
     //use image collection
-    const { clickFuturo_logo, worldLanguage_icon, instagram_icon, gitHub_icon, linkedin_icon,  terminal_icon, blog_incon, heart_icon, vite_icon, portada, terminal_font,  vite_font_blog, advertisemnt_font } = useImageCollection();
+    const { clickFuturo_logo, worldLanguage_icon, instagram_icon, gitHub_icon, linkedin_icon,   informatics_icon, blog_incon, heart_icon, vite_icon, portada, terminal_font,  vite_font_blog, advertisemnt_font } = useImageCollection();
 
     return(
 
@@ -37,7 +37,7 @@ export const ContexProvider = ( { children } ) => {
                     //use navigate handler
                     goToBlogLibrary, //blog library 
                     goToHomelibrary,  // home library
-                    goToAboutTerminal, //about terminal
+                    goToAboutIntroToInformatic, //about terminal
                     goToAboutClickfuturo, // about click futuro
 
                     //use images collection
@@ -46,7 +46,7 @@ export const ContexProvider = ( { children } ) => {
 
                         //icons
                         worldLanguage_icon, // world language
-                        terminal_icon, //terminal icon
+                        informatics_icon, //terminal icon
                         blog_incon,
                         vite_icon,
                         heart_icon, 
