@@ -17,13 +17,13 @@ export const Container_Adevertisements = () => {
     return(
 
 
-       <figure className='container_advertisement'>
+       <figure className='CONTAINER_adversiment'>
 
             <img src = "" alt="font_adversiment" />
 
            
        </figure>
-
+ 
 
             
 

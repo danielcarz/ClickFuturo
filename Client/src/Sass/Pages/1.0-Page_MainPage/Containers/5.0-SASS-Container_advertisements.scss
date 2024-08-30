@@ -10,23 +10,7 @@
 @mixin styles_phone () {
 
    
-  
 
-    width: 100%;
-    height: 200px;
-    
-    margin: 0;
-
-    border: 1px solid black;
-
-    img{
-
-      width: 100%;  
-      height: 200px;
-
-      content: url('../../../../assets/blogs_fonts/adversiment_phone.png');
-    }
-  
    
   
 }
@@ -51,26 +35,20 @@
 
 @mixin styles_desktop () {
 
-  height: 550px;
-  width: 100%;
+  width: ;
+  
+  img{
 
-  padding: 10px;
-
-  img {
-    width: 100%;
-    height: 400px;
-
-    
+    content: url('../../../../assets/blogs_fonts/1.png');
   }
 
-    border: 1px solid green; 
    
 }
 
 
 
  
-.container_advertisement{
+.CONTAINER_adversiment{
 
         //CONFIGURATION BY DEFAULT
        

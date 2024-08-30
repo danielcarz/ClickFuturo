@@ -13,21 +13,21 @@ export const Container_Blog = () => {
 
     return (
 
-        <div className = "container_blog" > 
+        <div className = "CONTAINER_blog" > 
 
-            <section className = "wrapper_blog"> 
+            <section className = "WRAPPER_blog"> 
 
-                <figure className =" box_one figure_about_logo" >
+                <figure className =" BOX_ONE container_Blog_figure_about_logo" >
                     <img src= { terminal_font } alt="terminal_font" /> 
                 </figure>
 
-                <div className = "box_two info_about_blog"> 
-                    <h3>tittle blog</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ratione!</p>
-                    <p onClick={ goToHomelibrary }> Leer mas... </p>
+                <div className = "BOX_TWO container_Blog_info_about_blog"> 
+                    <h3> La Informática desde Cero: Todo lo que necesitas saber para empezar </h3>
+                    <p>Exploraremos cómo esta ciencia automatiza tareas y mejora la eficiencia en múltiples áreas.</p>
+                    <p className='BUTTON_read-more' onClick={ goToHomelibrary }> Leer mas... </p>
                 </div>
 
-                <div className ="box_three about_blog"> 
+                <div className ="BOX_THREE container_Blog_about_blog"> 
                     <figure className='heart_icon'> <img src= { heart_icon  } alt="" /> </figure>
                     <div> 2 </div>
                     <div> julio / 2024 </div>
